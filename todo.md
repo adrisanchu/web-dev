@@ -1,0 +1,11 @@
+# To do
+- [ ] canvas-js
+    - [x] check the code
+    - [ ] add dedicated README.md
+    - [ ] give Kudos and provide links from creators
+    - [ ] empty Mac trash
+    - [ ] empty OneDrive old folder
+- [ ] CSS
+    - [ ] move from local to github.com
+    - [ ] clone repo on my Mac
+    - [ ] delete old code
