@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>trello-like</title>
+</head>
+
+<body>
+    <!-- https://codepen.io/kezako/pen/qdLBE -->
+
+    <section class="list" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+        <header>To Do</header>
+        <article class="card" id="c0" draggable="true" ondragstart="onDragStart(event);">
+            <header>Drag and Drop CSS</header>
+            <div class="detail">1/2</div>
+        </article>
+        <article class="card" id="c1" draggable="true" ondragstart="onDragStart(event);">
+            <header>Maybe something else ?</header>
+            <div class="detail">1/2</div>
+        </article>
+    </section>
+
+    <section class="list" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+        <header>Doing</header>
+        <article class="card" id="c2" draggable="true" ondragstart="onDragStart(event);">
+            <header>Drag and Drop JS</header>
+            <div class="detail">1/2</div>
+        </article>
+    </section>
+
+    <section class="list" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+        <header>Done</header>
+        <article class="card" id="c3" draggable="true" ondragstart="onDragStart(event);">
+            <header>Global HTML</header>
+            <div class="detail">1/2</div>
+        </article>
+        <article class="card" id="c4" draggable="true" ondragstart="onDragStart(event);">
+            <header>Global CSS</header>
+            <div class="detail">1/2</div>
+        </article>
+    </section>
+
+    <!-- JS -->
+    <script src="./drag-nd-drop.js"></script>
+
+</body>
+
+</html>
