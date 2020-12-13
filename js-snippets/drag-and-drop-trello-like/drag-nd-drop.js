@@ -23,7 +23,7 @@ function onDrop(event) {
     // get the id by checking in the getData object
     const id = event.dataTransfer.getData('text');
     const draggableElement = document.getElementById(id);
-    console.log(draggableElement);
+    console.log('draggable Element: ' + draggableElement);
 
     const dropzone = event.target;  // card, or list, ...
     dropzone.appendChild(draggableElement);
