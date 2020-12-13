@@ -5,7 +5,8 @@
     - [ ] give Kudos and provide links from creators
     - [ ] empty Mac trash
     - [ ] empty OneDrive old folder
-- [ ] CSS
-    - [ ] move from local to github.com
-    - [ ] clone repo on my Mac
+- [ ] css-snippets
+    - [x] move pricing panel and button from local to github.com
+    - [ ] add README.md and give kudos to Udemy course and creators
+    - [ ] move CSS animations to a dedicated folder
     - [ ] delete old code
