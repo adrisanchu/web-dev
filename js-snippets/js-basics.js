@@ -76,3 +76,70 @@ const color = "olive green";
 const msg = `My favorite color is: ${color}` //"My favorite color is: olive green"
 
 const str = `There are ${60 * 60 * 24} seconds in a day`//"There are 86400 seconds in a day"
+
+// Object literals:
+// -------------------------
+
+// To make an object literal:
+const dog = {
+    name: "Rusty",
+    breed: "unknown",
+    isAlive: false,
+    age: 7
+}
+// All keys will be turned into strings!
+
+// To retrieve a value:
+dog.age; //7
+dog["age"]; //7
+
+//updating values
+dog.breed = "mutt";
+dog["age"] = 8;
+
+
+// Conditionals and logical operators:
+// -------------------------
+
+// =====================
+// LOGICAL AND OPERATOR
+// =====================
+const password = prompt("Enter your password");
+if (password.length >= 6 && password.indexOf(' ') === -1) {
+    console.log("VALID PASSWORD!")
+} else {
+    console.log("INCORRECT FORMAT FOR PASSWORD!")
+}
+
+// =====================
+// AGE EXAMPLE
+// =====================
+
+// 0-5 free 
+// 5-10 $10 
+// 10-65 $20
+// 65+ free
+
+const age = 100;
+if ((age >= 0 && age < 5) || age >= 65) {
+    console.log("FREE");
+} else if (age >= 5 && age < 10) {
+    console.log("$10")
+} else if (age >= 10 && age < 65) {
+    console.log("$20")
+} else {
+    console.log("INVALID AGE!")
+}
+
+// let firstName = prompt("enter your first name");
+// if (!firstName) {
+//     firstName = prompt("TRY AGAIN!!!");
+// }
+
+// =====================
+// COMBINING && and ||
+// =====================
+const age = 8;
+if (!(age >= 0 && age < 5 || age >= 65)) {
+    console.log("YOU ARE NOT A BABY OR A SENIOR!")
+}
