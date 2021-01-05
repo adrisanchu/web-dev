@@ -143,3 +143,160 @@ const age = 8;
 if (!(age >= 0 && age < 5 || age >= 65)) {
     console.log("YOU ARE NOT A BABY OR A SENIOR!")
 }
+
+// Arrays:
+// -------------------------
+// (to complete)
+
+// Loops:
+// -------------------------
+
+// Sample array
+const seatingChart = [
+    ['Kristen', 'Erik', 'Namita'],
+    ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
+    ['Yuma', 'Sakura', 'Jack', 'Erika']
+]
+
+// =====================
+// FOR LOOP
+// =====================
+
+console.log('For Loop ---');
+for (let i = 0; i < seatingChart.length; i++) {
+    const row = seatingChart[i];
+    for (let j = 0; j < row.length; j++) {
+        console.log(row[j])
+    }
+}
+
+// =====================
+// FOR OF LOOP
+// (new, not supported in IE)
+// only works with arrays
+// =====================
+
+console.log('For Of Loop ---');
+for (let row of seatingChart) {
+    for (let student of row) {
+        console.log(student);
+    }
+}
+
+// sample object
+const testScores = {
+    keenan: 80,
+    damon: 67,
+    kim: 89,
+    shawn: 91,
+    marlon: 72,
+    dwayne: 77,
+    nadia: 83,
+    elvira: 97,
+    diedre: 81,
+    vonnie: 60
+}
+
+// =====================
+// FOR IN LOOP
+// (to iterate an object!)
+// It's like in Python
+// =====================
+
+for (let person in testScores) {
+    console.log(`${person} scored ${testScores[person]}`);
+}
+
+// ==============================================
+// Another option is to transform objects into arrays
+// Using Object methods to iterate
+// (turn data into an array and then use for...of)
+// ==============================================
+
+let total = 0;
+let scores = Object.values(testScores);
+for (let score of scores) {
+    total += score;
+}
+console.log(total / scores.length);
+
+// =====================
+// WHILE LOOP
+// (when we don't know the number of iterations)
+// =====================
+
+const SECRET = "BabyHippo";
+
+let guess = prompt("enter the secret code...");
+while (guess !== SECRET) {
+    guess = prompt("enter the secret code...");
+}
+console.log("CONGRATS YOU GOT THE SECRET!!!");
+
+
+// Functions:
+// -------------------------
+
+// 1. Simple functions:
+
+function add(x, y) {
+    if (typeof x !== 'number' || typeof y !== 'number') {
+        return false;
+    }
+    return x + y;
+}
+
+// 2. Function Expressions:
+// assign a function to a variable
+
+const add = function (x, y) {
+    return x + y;
+}
+
+// 3. Higher Order Functions:
+
+function callTwice(func) {
+    func();
+    func();
+}
+
+function callTenTimes(f) {
+    for (let i = 0; i < 10; i++) {
+        f();
+    }
+}
+
+function rollDie() {
+    const roll = Math.floor(Math.random() * 6) + 1;
+    console.log(roll);
+}
+
+callTwice(rollDie);
+// Here, rollDie goes without parenthesis!
+// We do not want to execute the function, but to pass it as an argument!
+
+
+// Methods:
+// -------------------------
+
+const myMath = {
+    PI: 3.14159,
+    square(num) {
+        return num * num;
+    },
+    cube(num) {
+        return num ** 3;
+    }
+}
+
+const cat = {
+    name: 'Blue Steele',
+    color: 'grey',
+    breed: 'scottish fold',
+    meow() {
+        console.log("THIS IS:", this)
+        console.log(`${this.name} says MEOWWWW`);
+    }
+}
+
+const meow2 = cat.meow;
