@@ -10,3 +10,6 @@
     - [ ] add README.md and give kudos to Udemy course and creators
     - [ ] move CSS animations to a dedicated folder
     - [ ] delete old code
+- [ ] js-snippets 
+    - [ ] add array functions
+    - [ ] add forEach, map, and callback examples
