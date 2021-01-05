@@ -279,6 +279,22 @@ callTwice(rollDie);
 // Methods:
 // -------------------------
 
+// Classical sintax used:
+
+const myMath = {
+    PI: 3.14159,
+    square: function(num) {
+        return num * num;
+    },
+    cube: function(num) {
+        return num ** 3;
+    }
+}
+
+// Shorthand sintax used:
+// (function keyword is omitted)
+// const obj = { func1(arg){},func2(arg1, arg2){} }
+
 const myMath = {
     PI: 3.14159,
     square(num) {
@@ -288,6 +304,11 @@ const myMath = {
         return num ** 3;
     }
 }
+
+// the 'this' keyword is used to reference some property
+// that exists in an object while we're inside a method.
+// for example:
+// In the 'cat' object, we reference the 'name' property inside the 'meow()' method
 
 const cat = {
     name: 'Blue Steele',
@@ -299,4 +320,6 @@ const cat = {
     }
 }
 
+// however, when called in this way, we cannot capture the name property!
+// It is important to pay attention to the INVOKATION CONTEXT for the word 'this' !!
 const meow2 = cat.meow;
