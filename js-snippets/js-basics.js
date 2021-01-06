@@ -323,3 +323,173 @@ const cat = {
 // however, when called in this way, we cannot capture the name property!
 // It is important to pay attention to the INVOKATION CONTEXT for the word 'this' !!
 const meow2 = cat.meow;
+
+
+// Callback Methods:
+// -------------------------
+
+// =====================
+// ARRAY FUNCTIONS
+// =====================
+
+// We can write the same function in 2 ways:
+// the classic way, or the arrow function way
+
+// Function 'add' in different versions, all valid:
+// Old way
+const add = function(x,y) {
+    return x + y;
+}
+// Omit function keyword
+const add = (x, y) => {
+    return x + y;
+}
+// Omit return keyword and curly braces
+const add = (a, b) => a + b;
+
+// IMPORTANT! ARROW FUNCTIONS SHALL BE USED CAREFULLY IN OBJECTS!
+
+const person = {
+    firstName: 'Viggo',
+    lastName: 'Mortensen',
+    fullName: function () {
+        return `${this.firstName} ${this.lastName}`
+    },
+    shoutName: function () {
+        setTimeout(() => {
+            //keyword 'this' in arrow functions refers to the value of 'this' when the function is created
+            console.log(this);
+            console.log(this.fullName())
+        }, 3000)
+    }
+}
+
+// =====================
+// ForEach, FILTER, MAP, REDUCE, SOME&EVERY METHODS
+// These methods require a callback function inside
+// =====================
+
+// Sample data
+
+const movies = [
+    {
+        title: 'Amadeus',
+        score: 99,
+        year: 1984
+    },
+    {
+        title: 'Sharknado',
+        score: 35,
+        year: 2013
+    },
+    {
+        title: '13 Going On 30',
+        score: 70,
+        year: 2004
+    },
+    {
+        title: 'Stand By Me',
+        score: 85,
+        year: 1986
+    },
+    {
+        title: 'Waterworld',
+        score: 62,
+        year: 1995
+    },
+    {
+        title: 'Jingle All The Way',
+        score: 71,
+        year: 1996
+    },
+    {
+        title: 'Parasite',
+        score: 95,
+        year: 2019
+    },
+    {
+        title: 'Notting Hill',
+        score: 77,
+        year: 1999
+    },
+    {
+        title: 'Alien',
+        score: 90,
+        year: 1979
+    }
+]
+
+// forEach: The old way before for...of
+// We can iterate for each element inside an object
+movies.forEach(function (movie) {
+    console.log(`${movie.title} - ${movie.score}/100`)
+})
+
+// Filter: Returns the values that pass the filter criteria
+// Ex: Return movies (the object!) released after 2000
+const recentMovies = movies.filter(m => m.year > 2000)
+
+// Map: Creates a new array by evaluating a expression to each value inside the array
+// We frequently use filter and map together
+// Ex: Return AN ARRAY OF TITLES with score higher than 80
+const highScoreMoviesTitles = movies.filter(m => m.score > 80).map(m => m.title);
+
+// IMPLICIT RETURN:
+// We can use implicit return omitting the return keyword and curly braces
+// This only works when the function is constituted by a single line of code!!
+const newMovies = movies.map(movie => (
+    `${movie.title} - ${movie.score / 10}`
+))
+
+// Reduce: it lets you store a value and roll-up
+// Useful for cumulate totals and stuff like that
+
+// Sample data
+const prices = [9.99, 1.50, 19.99, 49.99, 30.50];
+
+// We can calculate the sum of all prices with a for loop
+let total = 0;
+for (let price of prices) {
+    total += price
+}
+console.log(total)
+
+// But we get the same result by using 'reduce'
+// 1st arg: stores the result from previous iteration
+// 2nd arg: each element of the array
+const total = prices.reduce((total, price) => {
+    return total + price
+})
+
+// Even shorter sintax
+const total = prices.reduce((total, price) => total + price)
+
+// Other use: We get the minimum price among all those,
+// by storing the min price on each iteration and finally
+// returning the last value stored
+const minPrice = prices.reduce((min, price) => {
+    if (price < min) {
+        return price;
+    }
+    return min;
+})
+
+// SOME & EVERY
+// Returns true or false depending on the evaluation of a condition
+// for each value inside an array
+
+const exams = [80, 98, 92, 78, 77, 90, 89, 84, 81, 77]
+// 'every' returns true if all fields in the array pass the condition
+exams.every(score => score >= 75)  // returns true
+// 'some' returns true if ONE OR MORE fields pass the condition
+exams.some(score => score < 75)  // returns false
+exams.some(score => score = 77)  // returns true
+
+// setTimeout
+// Executes a function after a time delay, in ms!
+console.log("HELLO!!!...")
+setTimeout(() => {
+    console.log("...are you still there?")
+}, 3000)
+// The message "...are you still there?"
+// runs 3 seconds (3000ms) after!
