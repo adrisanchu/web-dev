@@ -1,5 +1,22 @@
-body {
+html {
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ededed;
+    max-width: 1080px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 600px; */
+    border: 1px solid black;
 }
 
 a {
@@ -8,4 +25,21 @@ a {
 
 a span {
     color: black;
+    /*
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    */
+    padding: 2px;
+    margin: auto;
+}
+
+.edit-content {
+    color: green;
+}
+
+.editor{
+    border: 1px gray solid;
+    background-color: azure;
+    min-height: 500px;
 }
