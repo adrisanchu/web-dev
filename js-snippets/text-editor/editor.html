@@ -19,11 +19,11 @@
 <body>
     <div class="edit-navbar">
         <!-- bold button -->
-        <a href="javascript:void(0)" onclick="format('bold')">
+        <a href="javascript:void(0)" onclick="boldButton()">
             <span class="fa fa-bold fa-fw"></span>
         </a>
         <!-- italic button -->
-        <a href="javascript:void(0)" onclick="format('italic')">
+        <a href="javascript:void(0)" onclick="document.execCommand('italic', false, null);" title="Italicize Highlighted Text">
             <span class="fa fa-italic fa-fw"></span>
         </a>
         <!-- unordered list button -->
@@ -91,6 +91,7 @@
         <div class="editor" contenteditable="true" id="editor"></div>
     </div>
 
+    <script src="main.js"></script>
 </body>
 
 </html>
