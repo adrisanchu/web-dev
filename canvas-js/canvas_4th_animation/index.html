@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canvas_4th_animation</title>
-    <!-- Bootstrap : copied from their website -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- style that should go on the css... -->
-    <style type="text/css">
-        :root {
-          --bg-color: #28282D;
-        }
-        [data-theme="light"] {
-          --bg-color: #FFFFFF;
-        }
-        [data-theme="gray"] {
-          --bg-color: #B2B2B2;
-        }
-        [data-theme="random"] {
-          --bg-color: #FFFFFF;
-        }
 
-        canvas {
-          height: 100%; width: 100%;
-          background-color: var(--bg-color);
-        }
-        body{
-          margin: 0;
-        }
-        
-    </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas_4th_animation</title>
+  <!-- Bootstrap : copied from their website -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- style that should go on the css... -->
+  <style type="text/css">
+    :root {
+      --bg-color: #28282D;
+    }
+
+    [data-theme="light"] {
+      --bg-color: #FFFFFF;
+    }
+
+    [data-theme="gray"] {
+      --bg-color: #B2B2B2;
+    }
+
+    [data-theme="random"] {
+      --bg-color: #FFFFFF;
+    }
+
+    #container {
+      position: relative;
+    }
+
+    #container canvas,
+    #menu {
+      position: absolute;
+    }
+
+    canvas {
+      background-color: var(--bg-color);
+    }
+
+    body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+    }
+  </style>
+
 </head>
+
 <body>
-    <!-- Navigation Menu -->
-    <div class="btn-group btn-group-sm" role="group" aria-label="Menu">
-        <button id="Dark" onclick="setMode('dark')" class="btn btn-dark">Dark Mode</button>
-        <button id="Gray" onclick="setMode('gray')" class="btn btn-secondary">Gray Mode</button>
-        <button id="Light" onclick="setMode('light')" class="btn btn-light">Light Mode</button>
-        <button id="Random" onclick="setMode('random')" class="btn btn-warning">Random</button>
-        
-    </div>
+  <div id="container">
     <canvas> </canvas>
-    <!-- script -->
-    <script src="canvas.js"></script>
+    <!-- Navigation Menu -->
+    <div id="menu" class="btn-group btn-group-sm" role="group" aria-label="Menu">
+      <button id="Dark" onclick="setMode('dark')" class="btn btn-dark">Dark Mode</button>
+      <button id="Gray" onclick="setMode('gray')" class="btn btn-secondary">Gray Mode</button>
+      <button id="Light" onclick="setMode('light')" class="btn btn-light">Light Mode</button>
+      <button id="Random" onclick="setMode('random')" class="btn btn-warning">Random</button>
+    </div>
+  </div>
+  <!-- script -->
+  <script src="canvas.js"></script>
 </body>
+
 </html>
