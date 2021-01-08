@@ -1,15 +1,16 @@
 # To do
-- [ ] canvas-js
+- [x] canvas-js
     - [x] check the code
-    - [ ] add dedicated README.md
-    - [ ] give Kudos and provide links from creators
-    - [ ] empty Mac trash
-    - [ ] empty OneDrive old folder
+    - [x] empty Mac trash
+    - [x] empty OneDrive old folder
+    - [x] add dedicated README.md
+    - [x] give Kudos and provide links from creators
 - [ ] css-snippets
     - [x] move pricing panel and button from local to github.com
     - [ ] add README.md and give kudos to Udemy course and creators
     - [ ] move CSS animations to a dedicated folder
     - [ ] delete old code
-- [ ] js-snippets 
+- [ ] js-snippets
     - [ ] add array functions
     - [ ] add forEach, map, and callback examples
+    - [ ] add DOM methods
