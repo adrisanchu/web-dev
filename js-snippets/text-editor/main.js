@@ -1,8 +1,3 @@
-/*
-function format(command, value=null) {
-    document.execCommand(command, false, value);
-}
-*/
 let exactText = '';
 
 document.addEventListener('mouseup', event => {  
@@ -10,6 +5,11 @@ document.addEventListener('mouseup', event => {
        exactText = window.getSelection().toString();        
     };
 });
+
+function format(command, value=null) {
+    document.execCommand(command, false, value);
+    console.log(`${exactText} is now ${command}!`);
+}
 
 function boldButton() {
     document.execCommand('bold', false, exactText);
