@@ -1,0 +1,22 @@
+.generation-title:nth-child(n) {
+    color: darkgoldenrod;
+}
+
+.generation-title:nth-child(2n) {
+    color: green;
+}
+
+.generation-container {
+    background-color: azure;
+    display: inline-block;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+
+.pokemon {
+    display: inline-block;
+    text-align: center;
+}
+.pokemon img {
+    display: block;
+}
