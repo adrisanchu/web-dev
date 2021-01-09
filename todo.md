@@ -1,12 +1,7 @@
 # To do
-- [x] canvas-js
-    - [x] check the code
-    - [x] empty Mac trash
-    - [x] empty OneDrive old folder
-    - [x] add dedicated README.md
-    - [x] give Kudos and provide links from creators
+- [ ] canvas-js
+    - [ ] migrate Sine and Wave Effect canvas
 - [ ] css-snippets
-    - [x] move pricing panel and button from local to github.com
     - [ ] add README.md and give kudos to Udemy course and creators
     - [ ] move CSS animations to a dedicated folder
     - [ ] delete old code
@@ -14,3 +9,6 @@
     - [ ] add array functions
     - [ ] add forEach, map, and callback examples
     - [ ] add DOM methods
+    - [x] Pokedex: first commit
+    - [ ] Pokedex: improve CSS!
+    - [ ] Pokedex: is there a way to get pokemon names from the pokeAPI ??
