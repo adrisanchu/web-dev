@@ -28,10 +28,17 @@ for (let g = 1; g <= numGenerations; g++) {
     const a = document.createElement('a');
     a.href = '#' + id;
     a.append(name);
-    a.classList.add('generation-title', 'toggle');
+    a.classList.add('toggle');
 
-    // ember a inside title
+    // span (initially collapsed)
+    const span = document.createElement('span');
+    span.append(' ➤ ');
+
+    // h2 will embed a and span
     const h2 = document.createElement('h2');
+    h2.classList.add('generation-title');
+    
+    h2.insertAdjacentElement('beforeend', span);
     h2.insertAdjacentElement('beforeend', a);
 
     // append container inside h2
@@ -61,6 +68,7 @@ for (let g = 1; g <= numGenerations; g++) {
 }
 
 // ============================
+
 // control display of containers
 let show = function (elem) {
     elem.style.display = 'block';
@@ -71,21 +79,26 @@ let hide = function (elem) {
 };
 
 let toggle = function (elem) {
+    const parent = elem.parentElement;
     // If the element is visible, hide it
     if (window.getComputedStyle(elem).display === 'block') {
         hide(elem);
+        parent.classList.remove('opened');
+        console.log(parent.classList);
         return;
     }
     // Otherwise, show it
     show(elem);
+    parent.classList.add('opened');
+    console.log(parent.classList);
 };
 
 // Listen for click events
 document.addEventListener('click', function (event) {
-    // Make sure clicked element is our toggle
-    // console.log(`classes: ${event.target.classList}`);
+    // get the target
+    const target = event.target;
     if (!event.target.classList.contains('toggle')) return;
-
+    
     // Prevent default link behavior
     event.preventDefault();
 
