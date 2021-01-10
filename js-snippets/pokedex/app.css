@@ -6,55 +6,61 @@
     text-decoration: none;
 }
 body {
-    background-color: rgba(144, 165, 168, 0.7);
+    background-color: #27272C;
+    color: #E6E3E9;
+    /* LIGHT MODE
+    background-color: #EEEEEE;
+    color: #282F38;
+    */
 }
 
 h1 {
     text-align: center;
     font-size: 80px;
-    background: -webkit-linear-gradient(120deg, yellow, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    border-bottom: 5px solid rgba(192, 101, 192, 0.6);
 }
 
 .generation-title {
-    margin: 5px;
+    margin: 14px 8px;
     padding: 5px;
     
-    border: 1px solid azure;
+    border: 1px solid #212125;
     border-radius: 10px;
+    background-color: #212125;
+    /* control duration of animations on hover */
+    transition: transform 0.4s, background-color 0.4s;
 }
 
-/*
-.generation-title:nth-child(n) {
-    color: azure;
+.generation-title:hover {
+    transform: translateY(-0.2em);
+    /* background-color: #282F38; */
+    background-color: rgba(192, 101, 192, 0.6);
 }
-
-.generation-title:nth-child(2n) {
-    color: green;
-}
-*/
 
 .generation-title.opened {
-    color: white;
-    background-image: linear-gradient(120deg, #5f57d1, #c065c0);
+    color: #E6E3E9;
+    background-image: linear-gradient(120deg, #5f57d1, rgb(192, 101, 192));
 }
 
 a {
-    color: black;
+    color: #E6E3E9;
+    font-weight: light;
 }
+a:hover {
+    cursor: pointer;
+}
+
 /* target first span inside our title (the arrow) */
 .generation-title.opened span:first-child {
     display: inline-block;
     transform: rotate(90deg);
-    transition-duration: 0.8s;
+    transition-duration: 1s;
 }
-
+/* do something here ...
 .generation-title.opened a {
-    color: white;
+    font-weight: bold;
 }
-
-
+*/
 .generation-container {
     /*background-color: azure;*/
     display: inline-block;
@@ -74,4 +80,22 @@ a {
 }
 .pokemon img {
     display: block;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: rgba(192, 101, 192, 0.6);
+}
+
+.credits {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* --- Big Screens setup --- */
+@media(min-width: 800px) {
+    .credits {
+        /* more distance for big screens */
+        margin-top: 110px;
+    }
 }
