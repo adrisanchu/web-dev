@@ -1,6 +1,7 @@
 # To do
 - [ ] canvas-js
-    - [ ] migrate Sine and Wave Effect canvas
+    - [x] migrate Sine and Wave Effect canvas
+    - [ ] refactor structure (oop) Wave Effect script
 - [ ] css-snippets
     - [ ] add README.md and give kudos to Udemy course and creators
     - [ ] move CSS animations to a dedicated folder
@@ -10,5 +11,5 @@
     - [ ] add forEach, map, and callback examples
     - [ ] add DOM methods
     - [x] Pokedex: first commit
-    - [ ] Pokedex: improve CSS!
+    - [x] Pokedex: improve CSS!
     - [ ] Pokedex: is there a way to get pokemon names from the pokeAPI ??
