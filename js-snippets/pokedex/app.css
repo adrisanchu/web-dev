@@ -8,10 +8,6 @@
 body {
     background-color: #27272C;
     color: #E6E3E9;
-    /* LIGHT MODE
-    background-color: #EEEEEE;
-    color: #282F38;
-    */
 }
 
 h1 {
@@ -24,7 +20,7 @@ h1 {
     margin: 14px 8px;
     padding: 5px;
     
-    border: 1px solid #212125;
+    border: 1px solid rgba(192, 101, 192, 0.6);
     border-radius: 10px;
     background-color: #212125;
     /* control duration of animations on hover */
@@ -33,13 +29,14 @@ h1 {
 
 .generation-title:hover {
     transform: translateY(-0.2em);
-    /* background-color: #282F38; */
     background-color: rgba(192, 101, 192, 0.6);
 }
 
 .generation-title.opened {
     color: #E6E3E9;
     background-image: linear-gradient(120deg, #5f57d1, rgb(192, 101, 192));
+    /* same color as background to remove border */
+    border: 1px solid #212125;
 }
 
 a {
