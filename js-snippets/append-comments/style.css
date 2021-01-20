@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    background-image: linear-gradient(120deg, #6aa872, rgb(102, 154, 214));
+    color: #E6E3E9;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 10px;
+}
+
+#commentForm {
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 5px;
+    display:inline-block;
+    justify-content: center;
+    border: 1px solid rgba(191, 188, 194, 0.5);
+    background-color: rgba(191, 188, 194, 0.5);
+    border-radius: 5px;
+}
+
+#commentForm input, textarea {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #E6E3E9;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus, input:focus{
+    outline: 2px auto rgba(191, 188, 194, 0.8);
+}
+
+button {
+    border: 1px solid #E6E3E9;
+    border-radius: 5px;
+    padding: 5px;
+    transition: background-color 0.4s;
+}
+button:hover {
+    background-color: rgba(106, 168, 114, 0.6);
+    border: 1px solid rgb(106, 168, 114);
+}
+
+button:focus {
+    outline: none;
+}
+
+#feed, #feed-title {
+    /* initially hidden */
+    display: none;
+    margin: 10px;
+}
+
+#feed {
+    justify-content: center;
+    border: 1px solid rgba(191, 188, 194, 0.5);
+    background-color: rgba(191, 188, 194, 0.5);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 15px;
+}
+.comment-block {
+    /* remove bullets from lis */
+    list-style-type: none;
+}
+.comment-title {
+    font-weight: bold;
+    padding: 5px;
+}
+.comment-description {
+    padding: 5px;
+}
+
+.comment-datetime {
+    padding: 5px;
+}
+
+hr {
+    margin: 10px;
+}

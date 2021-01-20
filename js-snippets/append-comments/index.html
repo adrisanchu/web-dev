@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Add some comments!</h1>
+
+    <form action="/" id="commentForm">
+        <input id="title" name="title" type="text" placeholder="Title">
+        <textarea rows="10" cols="30" id="description" name="description" type="text"
+            placeholder="Description..."></textarea>
+        <button id="comment" type="submit">Confirm</button>
+    </form>
+
+    <h2 id="feed-title">Comments section:</h2>
+
+    <section id="feed"></section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
