@@ -1,6 +1,7 @@
 # To do
 - [ ] canvas-js
-    - [ ] migrate Sine and Wave Effect canvas
+    - [x] migrate Sine and Wave Effect canvas (canvas_sinewaves_1)
+    - [ ] fix canvas_sinewaves !
 - [ ] css-snippets
     - [ ] add README.md and give kudos to Udemy course and creators
     - [ ] move CSS animations to a dedicated folder
@@ -12,3 +13,5 @@
     - [x] Pokedex: first commit
     - [ ] Pokedex: improve CSS!
     - [ ] Pokedex: is there a way to get pokemon names from the pokeAPI ??
+    - [x] Todos: first commit
+    - [ ] Todos: add README.md + improve key-value to add status done/pending
