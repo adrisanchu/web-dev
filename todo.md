@@ -11,7 +11,7 @@
     - [ ] add forEach, map, and callback examples
     - [ ] add DOM methods
     - [x] Pokedex: first commit
-    - [ ] Pokedex: improve CSS!
-    - [ ] Pokedex: is there a way to get pokemon names from the pokeAPI ??
+    - [x] Pokedex: is there a way to get pokemon names from the pokeAPI ?? YES IT IS !!
+    - [ ] Pokedex: improve CSS! Expand card on hover
     - [x] Todos: first commit
     - [ ] Todos: add README.md + improve key-value to add status done/pending
