@@ -599,3 +599,34 @@ const getDadJoke = async () => {
     }
 
 }
+
+// Another example with AXIOS
+// EXAMPLE
+// =====================
+const form = document.querySelector('#searchForm');
+form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    // get input text after submit
+    const searchTerm = form.elements.query.value;
+    // we build our request like this: http://api.tvmaze.com/search/shows?q={searchTerm}
+    const config = { params: { q: searchTerm } }
+    // for multiple params we separate with commas 
+    // params: { q: searchTerm, country: US }
+    const res = await axios.get(`http://api.tvmaze.com/search/shows`, config);
+    // we will extract the image from show > image > medium
+    // example: res.data[0].show.image.medium
+    makeImages(res.data)
+    // clean-up input field
+    form.elements.query.value = '';
+})
+
+const makeImages = (shows) => {
+    for (let result of shows) {
+        if (result.show.image) {  // check if the image key exists in the response
+            const img = document.createElement('IMG');
+            img.src = result.show.image.medium;
+            document.body.append(img)
+        }
+    }
+}
+// =====================
