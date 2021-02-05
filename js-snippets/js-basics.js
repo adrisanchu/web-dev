@@ -493,3 +493,140 @@ setTimeout(() => {
 }, 3000)
 // The message "...are you still there?"
 // runs 3 seconds (3000ms) after!
+
+
+// JSON data:
+// -------------------------
+
+//THIS IS A STRING OF JSON (NOT AN OBJECT)
+const data = `{"ticker":{"base":"BTC","target":"USD","price":"11288.49813464","volume":"91769.69699773","change":"-46.29462447"},"timestamp":1596510482,"success":true,"error":""}`
+
+// THIS IS A JS OBJECT
+const parsedData = JSON.parse(data);
+
+
+
+// Requests - Responses:
+// -------------------------
+
+// =====================
+// The old way: XHR
+// =====================
+const req = new XMLHttpRequest();
+
+req.onload = function () {
+    console.log("ALL DONE WITH REQUEST!!!")
+    const data = JSON.parse(this.responseText);
+    console.log(data.ticker.price);
+}
+
+req.onerror = function () {
+    console.log("ERROR!!!")
+    console.log(this);
+}
+
+req.open('GET', 'https://api.cryptonator.com/api/ticker/btc-usd')
+req.send();
+
+// =====================
+// Using the Fetch API with fetch .then and .catch
+// =====================
+
+// the simple way
+fetch('https://api.cryptonator.com/api/ticker/btc-usd')
+    .then(res => {
+        console.log("RESPONSE, WAITING TO PARSE...", res)
+        return res.json()
+    })
+    .then(data => {
+        console.log("DATA PARSED...")
+        console.log(data.ticker.price)
+    })
+    // we pass only one .catch if something goes wrong
+    .catch(e => {
+        console.log("OH NO! ERROR!", e)
+    })
+
+// using asynchronous JS: async and await
+// it is less code
+// we need to use try {await ... } catch(error){} to catch errors
+const fetchBitcoinPrice = async () => {
+    try {
+        const res = await fetch('https://api.cryptonator.com/api/ticker/btc-usd');
+        const data = await res.json();
+        console.log(data.ticker.price)
+    } catch (e) {
+        console.log("SOMETHING WENT WRONG!!!", e)
+    }
+}
+
+// =====================
+// Using AXIOS library
+// kind of the same that Fetch API but shorter
+// =====================
+
+// IMPORTANT! We need to import this in our index.html
+// <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+// the equivalent of the first request using fetch API, but with AXIOS
+axios.get('https://api.cryptonator.com/api/ticker/btc-usd')
+    .then(res => {
+        console.log(res.data.ticker.price)
+    })
+    .catch(err => {
+        console.log("ERROR!", err)
+    })
+
+// the equivalent of the second request using async await, but with AXIOS
+const fetchBitcoinPrice = async () => {
+    try {
+        const res = await axios.get('https://api.cryptonator.com/api/ticker/btc-usd')
+        console.log(res.data.ticker.price)
+    } catch (e) {
+        console.log("ERROR!", e)
+    }
+}
+
+// Setting headers with AXIOS
+// When doing a request, we can configure the headers of our request like in this example
+const getDadJoke = async () => {
+    try {
+        const config = { headers: { Accept: 'application/json' } }
+        const res = await axios.get('https://icanhazdadjoke.com/', config)
+        return res.data.joke;
+    } catch (e) {
+        return "NO JOKES AVAILABLE! SORRY :("
+    }
+
+}
+
+// Another example with AXIOS
+// EXAMPLE
+// =====================
+const form = document.querySelector('#searchForm');
+form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    // get input text after submit
+    const searchTerm = form.elements.query.value;
+    // we build our request like this: http://api.tvmaze.com/search/shows?q={searchTerm}
+    const config = { params: { q: searchTerm } }
+    // for multiple params we separate with commas 
+    // params: { q: searchTerm, country: US }
+    const res = await axios.get(`http://api.tvmaze.com/search/shows`, config);
+    // we will extract the image from show > image > medium
+    // example: res.data[0].show.image.medium
+    makeImages(res.data)
+    // clean-up input field
+    form.elements.query.value = '';
+})
+
+const makeImages = (shows) => {
+    for (let result of shows) {
+        if (result.show.image) {  // check if the image key exists in the response
+            const img = document.createElement('IMG');
+            img.src = result.show.image.medium;
+            document.body.append(img)
+        }
+    }
+}
+// =====================
