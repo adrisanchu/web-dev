@@ -19,6 +19,7 @@
   
   <body>
     <!-- setup simple navbar fixed on top of the website -->
+    <!-- py-0 removes padding on top & bottom -->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
       <a href="#" class="navbar-brand">CANDY</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
@@ -39,6 +40,31 @@
         </ul>
       </div>
     </nav>
+
+    <!-- fluid container with a grid system, 1x12 -->
+    <!-- px-0 removes padding on left & right -->
+    <section class="container-fluid px-0">
+      <!-- one row, 12 columns, divided in half! -->
+      <div class="row align-items-center">
+        <!-- diff btwn col-6 and col-lg-6: lg means that this will only apply in large screens! -->
+        <div class="col-lg-6">
+          <!--  -->
+          <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+            <h2>MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+            <h2>MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+            <h2>MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+            <h2>MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+            <h2>MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+            <h2>MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+            <h2>MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- using img-fluid to make images resize when using the grid system -->
+          <img class="img-fluid" src="imgs/hand2.png" alt="" srcset="">
+        </div>
+      </div>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
