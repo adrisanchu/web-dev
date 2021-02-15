@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 
 // setup ejs for templating HTML (requires installation of ejs on npm)
 app.set('view engine', 'ejs');
+// __dirname gets the path where our index.js file lives
+app.set('views', path.join(__dirname, '/views'));
 
 /*
 // everytime a request hits our server, app.use executes
