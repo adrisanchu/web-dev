@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 
+// setup ejs for templating HTML (requires installation of ejs on npm)
+app.set('view engine', 'ejs');
+
 /*
 // everytime a request hits our server, app.use executes
 app.use((req, res) => {
@@ -12,8 +15,8 @@ app.use((req, res) => {
 // / => main page
 
 app.get('/', (req, res) => {
-    console.log('Home!');
-    res.send('Welcome to my website');
+    // console.log('Home!');
+    res.render('home.ejs');
 })
 
 // dynamic request using parameters with ':'
