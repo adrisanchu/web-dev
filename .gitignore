@@ -1,3 +1,5 @@
 js-snippets/append-comments/index.html
 
 node_modules
+# ignore landing-pages folder for the moment
+landing-pages
