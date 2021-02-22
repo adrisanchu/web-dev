@@ -495,6 +495,73 @@ setTimeout(() => {
 // runs 3 seconds (3000ms) after!
 
 
+// New JS Features:
+// -------------------------
+
+// 1. Default params:
+// we can pass a value in a function to set it as a default value
+function rollDie(numSides = 6) {
+    return Math.floor(Math.random() * numSides) + 1
+}
+// =====================
+
+// 2. Destructuring:
+// We can destructure an array by assigning its values to variables, like this:
+// let's consider the following array:
+const scores = [100, 98, 97, 95, 94, 80, 74, 50, 32, 20, 5];
+const [gold, silver, bronze, ...everyoneElse] = scores;
+// everyoneElse is an array containing all the values left from scores!
+// same principle applies to objects !
+// for example, using the movies sample:
+
+// the old way:
+movies.map(movie => {
+    return `${movie.title} (${movie.year}) is rated ${movie.score}`
+})
+// the new way! using {} to declare variables as destructured, coming from movies
+movies.map(({ title, score, year }) => {
+    return `${title} (${year}) is rated ${score}`
+})
+// =====================
+
+// 3. Rest & Spread operators:
+// using the elipsis symbol (spread operator), we can pass an array as a set of values separated by ','
+function raceResults(gold, silver, ...everyoneElse) {
+    console.log(`GOLD MEDAL GOES TO: ${gold}`)
+    console.log(`SILVER MEDAL GOES TO: ${silver}`)
+    console.log(`AND THANKS TO EVERYONE ELSE: ${everyoneElse}`)
+}
+
+// Another example:
+const nums = [13, 4, 5, 21, 3, 3, 1, 2, 7, 6, 4, 2, 53456];
+Math.max(nums) //NaN
+Math.max(...nums) //53456
+
+// we can use it to create new arrays and concatenate:
+// SPREAD IN ARRAYS
+const cats = ['Blue', 'Scout', 'Rocket'];
+const dogs = ['Rusty', 'Wyatt'];
+
+const allPets = [...cats, ...dogs];
+
+// Same principle applies to objects.
+// It will be useful when updating JSON data !!
+const dataFromForm = {
+    email: 'blueman@gmail.com',
+    password: 'tobias123!',
+    username: 'tfunke'
+}
+const newUser = { ...dataFromForm, id: 2345, isAdmin: false }
+
+// =====================
+
+// DOM Events:
+// -------------------------
+
+// Check Pokemon, todos, score-keeper or append-comments !
+
+// =====================
+
 // JSON data:
 // -------------------------
 
@@ -630,3 +697,75 @@ const makeImages = (shows) => {
     }
 }
 // =====================
+
+
+// Promises:
+// -------------------------
+
+// THE CALLBACK VERSION
+const fakeRequestCallback = (url, success, failure) => {
+    const delay = Math.floor(Math.random() * 4500) + 500;
+    setTimeout(() => {
+        if (delay > 4000) {
+            failure('Connection Timeout :(')
+        } else {
+            success(`Here is your fake data from ${url}`)
+        }
+    }, delay)
+}
+// THE PROMISE VERSION 
+const fakeRequestPromise = (url) => {
+    return new Promise((resolve, reject) => {
+        const delay = Math.floor(Math.random() * (4500)) + 500;
+        setTimeout(() => {
+            if (delay > 4000) {
+                reject('Connection Timeout :(')
+            } else {
+                resolve(`Here is your fake data from ${url}`)
+            }
+        }, delay)
+    })
+}
+
+// Promises are useful when we're dealing with multiple then/catch loops !
+// Usually, we will end up with callback hell in a case like this
+fakeRequestPromise('yelp.com/api/coffee/page1')
+    .then((data) => {
+        console.log("IT WORKED!!!!!! (page1)")
+        console.log(data)
+        return fakeRequestPromise('yelp.com/api/coffee/page2')
+    })
+    .then((data) => {
+        console.log("IT WORKED!!!!!! (page2)")
+        console.log(data)
+        return fakeRequestPromise('yelp.com/api/coffee/page3')
+    })
+    .then((data) => {
+        console.log("IT WORKED!!!!!! (page3)")
+        console.log(data)
+    })
+    .catch((err) => {
+        console.log("OH NO, A REQUEST FAILED!!!")
+        console.log(err)
+    })
+
+// =====================
+
+// An example to avoid "callback hell" with promises
+// change color of the background after a certain delay
+const delayedColorChange = (color, delay) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            document.body.style.backgroundColor = color;
+            resolve();
+        }, delay)
+    })
+}
+
+delayedColorChange('red', 1000)
+    .then(() => delayedColorChange('orange', 1000))
+    .then(() => delayedColorChange('yellow', 1000))
+    .then(() => delayedColorChange('green', 1000))
+    .then(() => delayedColorChange('blue', 1000))
+    .then(() => delayedColorChange('indigo', 1000))
+    .then(() => delayedColorChange('violet', 1000))
