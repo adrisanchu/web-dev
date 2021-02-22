@@ -3,6 +3,9 @@ const app = express();
 const path = require('path');
 const redditData = require('./data.json');
 
+// express.static method to manage public (global) files
+app.use(express.static(path.join(__dirname, 'public')))
+
 // setup ejs for templating HTML (requires installation of ejs on npm)
 app.set('view engine', 'ejs');
 // __dirname gets the path where our index.js file lives
