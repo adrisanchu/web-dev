@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const redditData = require('./data.json');
 
 // setup ejs for templating HTML (requires installation of ejs on npm)
 app.set('view engine', 'ejs');
@@ -25,8 +26,14 @@ app.get('/', (req, res) => {
 // dynamic request using parameters with ':'
 app.get('/r/:subreddit', (req, res) => {
     const { subreddit } = req.params;
-    console.log('Subreddit request!');
-    res.send(`<h1>Browsing the ${subreddit} subreddit`);
+    // console.log('Subreddit request!');
+    const data = redditData[subreddit];
+    if (data) {
+        // we use destructuring over data to parse it
+        res.render('subreddit', { ...data });
+    } else {
+        res.render('notfound', { subreddit })
+    }
 })
 
 // request with query parameters: we catch them with req.query
