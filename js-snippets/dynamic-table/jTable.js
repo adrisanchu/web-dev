@@ -7,6 +7,9 @@ let mountains = [
   { name: "Monte Amiata", height: 1738, place: "Siena" }
 ];
 
+console.log('original data');
+console.log(mountains);
+
 // functions
 function generateTableHead(table, data) {
   let thead = table.createTHead();
@@ -26,6 +29,23 @@ function generateTable(table, data) {
       let cell = row.insertCell();
       let text = document.createTextNode(element[key]);
       cell.appendChild(text);
+    }
+  }
+}
+
+function generateTable2(table, data, mainKey) {
+  let rows = data.map(m => m[mainKey])
+    .filter((value, index, self) => self.indexOf(value) === index);
+  // iterate through the distinct rows
+  for(let rowVal of rows) {
+    let row = table.insertRow();
+    for (let element of data) {
+      for (key in element) {
+        // console.log(key);
+        let cell = row.insertCell();
+        let text = document.createTextNode(element[key]);
+        cell.appendChild(text);
+      }
     }
   }
 }
@@ -69,8 +89,38 @@ function transpData(data, mainKey, pivotKey, valueKey) {
   return newArr;
 }
 
+function merge(dst, src) {
+  // will merge the common properties of the dst object to the src object in all levels of nesting
+  // leaving any properties that are not common intact
+  // see: https://stackoverflow.com/questions/56188121/how-to-merge-two-objects-overriding-null-values
+  Object.keys(src).forEach((key) => {
+    if (!dst[key]) {
+      dst[key] = src[key];
+    } else if (typeof src[key] === 'object' && src[key] !== null && typeof dst[key] === 'object' && dst[key] !== null) {
+      merge(dst[key], src[key]);
+    }
+  });
+}
+
+function mergeTranspData(data, mainKey) {
+  // being data an array of n objects
+  // we will iterate through each object and merge one by one
+  let newArr = [];
+  let firstObj = data[0];
+  for (let obj of data) {
+    if(obj[mainKey] === firstObj[mainKey]) {
+      merge(firstObj, obj);
+    } else {
+      newArr.push(obj);
+    }
+    
+  }
+  newArr.push(firstObj);
+  return newArr;
+}
 
 let pivotDataPlace = transpData(mountains, 'name', 'place', 'height');
+
 /*
 shall return:
 let mountains = [
@@ -93,10 +143,16 @@ generateTableHead(tablePivotPlace, headPivotPlace);
 // another one!
 
 let pivotDataName = transpData(mountains, 'place', 'name', 'height');
+console.log('pivotDataName (name as Col, place as Rows)');
 console.log(pivotDataName);
+
+let pivot2 = mergeTranspData(pivotDataName, 'place');
+console.log('pivotDataName merging distinct places');
+console.log(pivot2);
+
 
 let tablePivotName = document.querySelector("#table-pivot-name");
 let headPivotName = Object.keys(pivotDataName[0]);
 
-generateTable(tablePivotName, pivotDataName);
+generateTable(tablePivotName, pivot2);
 generateTableHead(tablePivotName, headPivotName);
