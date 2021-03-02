@@ -1,0 +1,14 @@
+pre {
+    background-color: #343a40;
+    color: white;
+}
+
+.code-container {
+    background-color: #343a40;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+table:empty {
+    background: #343a40;
+}
