@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Dynamic Table</title>
 </head>
 <body>
-    <h1>Dynamic Table</h1>
+    <h1 class="">Dynamic Tables</h1>
 
     <section class="container" id="container">
         <h2>Raw Data:</h2>
-        <h3 class="code">let mountains = [
-            { name: "Monte Falco", height: 1658, place: "Parco Foreste Casentinesi" },
-            { name: "Monte Falterona", height: 1654, place: "Parco Foreste Casentinesi" },
-            { name: "Poggio Scali", height: 1520, place: "Parco Foreste Casentinesi" },
-            { name: "Pratomagno", height: 1592, place: "Parco Foreste Casentinesi" },
-            { name: "Monte Amiata", height: 1738, place: "Siena" }
-          ];</h3>
+        <div class="code-container">
+            <pre class="pre-scrollable"><code class="code" id="input-data"></code></pre>
+        </div>
         <hr>
         <h2>Original table</h2>
         <h3></h3>
-        <table id="table-original"></table>
+        <table id="table-original" class="table table-dark table-hover"></table>
         <hr>
         <h2>Pivot table: pivot places</h2>
-        <h3 class="code">let pivotData = transpData(mountains, 'name', 'place', 'height');</h3>
-        <table id="table-pivot-place"></table>
+        <div class="code-container">
+            <pre><code>let pivotData = transpData(mountains, 'name', 'place', 'height');</code></pre>
+            <table id="table-pivot-place" class="table table-dark table-hover"></table>
+        </div>
         <hr>
         <h2>Pivot table: pivot names</h2>
-        <h3 class="code">let pivotDataName = transpData(mountains, 'place', 'name', 'height');</h3>
-        <table id="table-pivot-name"></table>
+        <div class="code-container">
+            <pre><code>let pivotDataName = transpData(mountains, 'place', 'name', 'height');</code></pre>
+            <table id="table-pivot-name" class="table table-dark table-hover"></table>
+        </div>
 
     </section>
 

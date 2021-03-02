@@ -7,6 +7,11 @@ let mountains = [
   { name: "Monte Amiata", height: 1738, place: "Siena" }
 ];
 
+let inputData = document.querySelector("#input-data");
+// inputData.innerHTML = JSON.stringify(inputData, null, '<br>');
+let jsonMountains = JSON.stringify(mountains, null, 2);
+console.log(jsonMountains);
+inputData.innerHTML = jsonMountains;
 console.log('original data');
 console.log(mountains);
 
@@ -113,9 +118,9 @@ function mergeTranspData(data, mainKey) {
     } else {
       newArr.push(obj);
     }
-    
   }
-  newArr.push(firstObj);
+  // unshift rather than push
+  newArr.unshift(firstObj);
   return newArr;
 }
 
