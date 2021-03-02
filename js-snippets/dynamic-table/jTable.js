@@ -7,33 +7,46 @@ let mountains = [
   { name: "Monte Amiata", height: 1738, place: "Siena" }
 ];
 
+// display input data on HTML
 let inputData = document.querySelector("#input-data");
-// inputData.innerHTML = JSON.stringify(inputData, null, '<br>');
 let jsonMountains = JSON.stringify(mountains, null, 2);
-console.log(jsonMountains);
+// console.log(jsonMountains);
 inputData.innerHTML = jsonMountains;
-console.log('original data');
-console.log(mountains);
+// console.log('original data');
+// console.log(mountains);
 
 // functions
 function generateTableHead(table, data) {
   let thead = table.createTHead();
   let row = thead.insertRow();
+  let r = 0;  // set to 0 as this is the header
+  let c = 0;  // add column id to header
   for (let key of data) {
     let th = document.createElement("th");
     let text = document.createTextNode(key);
     th.appendChild(text);
     row.appendChild(th);
+    let rcCode = "r" + r + "c" + c;
+    th.classList.add(rcCode);
+    c++;
   }
 }
 
 function generateTable(table, data) {
+  let r = 0;
   for (let element of data) {
+    let c = 0;
     let row = table.insertRow();
+    let rCode = "r" + r;
+    row.classList.add(rCode);
+    r++;
     for (key in element) {
       let cell = row.insertCell();
       let text = document.createTextNode(element[key]);
       cell.appendChild(text);
+      let rcCode = "r" + r + "c" + c;
+      cell.classList.add(rcCode);
+      c++;
     }
   }
 }
@@ -161,3 +174,52 @@ let headPivotName = Object.keys(pivotDataName[0]);
 
 generateTable(tablePivotName, pivot2);
 generateTableHead(tablePivotName, headPivotName);
+
+function getRxCyClass(target) {
+  // given a cell target, it will return the corresponding
+  // rXcY code found in the className. Returns null if no class found
+  // r0cY -> the column header
+  // rXc0 -> the row header
+  let cellClasses = target.className.split(' ');
+  // filter the rXcY class
+  let rcClass = cellClasses.filter(c => 
+    c.length = 4 && 
+    c[0] === 'r' &&
+    c[2] === 'c' &&
+    typeof parseInt(c[1]) === 'number' &&
+    typeof parseInt(c[3]) === 'number'
+  );
+  if (rcClass.length === 0) {
+    return null;  // no rXcY class found
+  } else {
+    return rcClass[0];
+  }
+};
+
+function getCell(tableId, rXcY) {
+  let tbl = document.querySelector(`#${tableId}`);
+  // find the cell within the table !
+  let cell = tbl.querySelector(`.${rXcY}`);
+  return cell;
+};
+
+// ======================
+// Event Listeners
+tablePivotName.onclick = function(event) {
+  let target = event.target;
+  if (target.tagName != 'TD') return;
+  // get rXcY cell position
+  let cellId = getRxCyClass(target);
+  // console.log(cellId);
+
+  // get header ref and row ref
+  let colId = "r0c" + cellId[3];
+  let rowId = "r" + cellId[1] + "c0";
+  console.log(`colId: ${colId}, rowId: ${rowId}`);
+
+  // get header cell and row cell
+  let colCell = getCell('table-pivot-name', colId);
+  let rowCell = getCell('table-pivot-name', rowId);
+  console.log(`colName: ${colCell.innerText}, rowName: ${rowCell.innerText}`);
+
+};
