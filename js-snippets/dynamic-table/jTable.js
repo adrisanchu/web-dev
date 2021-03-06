@@ -10,10 +10,70 @@ let mountains = [
 // display input data on HTML
 let inputData = document.querySelector("#input-data");
 let jsonMountains = JSON.stringify(mountains, null, 2);
-// console.log(jsonMountains);
 inputData.innerHTML = jsonMountains;
+
 // console.log('original data');
 // console.log(mountains);
+
+function Table(tableId, data) {
+  // input
+  this.tableId = tableId;
+  this.data = data;
+  this.headers = Object.keys(data[0]);
+
+  // methods
+  this.render = function() {
+    // first render get the body, then append the header
+    this.generateTableBody();
+    this.generateTableHead();
+  };
+
+  this.generateTableHead = function() {
+    let thead = tableId.createTHead();
+    let row = thead.insertRow();
+    let r = 0;  // set to 0 as this is the header
+    let c = 0;  // add column id to header
+    for (let key of this.headers) {
+      let th = document.createElement("th");
+      let text = document.createTextNode(key);
+      th.appendChild(text);
+      row.appendChild(th);
+      let rcCode = "r" + r + "c" + c;
+      th.classList.add(rcCode);
+      c++;
+    }
+    return
+  };
+
+  this.generateTableBody = function() {
+    let r = 0;
+    for (let element of data) {
+      let c = 0;
+      let row = tableId.insertRow();
+      let rCode = "r" + r;
+      row.classList.add(rCode);
+      r++;
+      for (key in element) {
+        let cell = row.insertCell();
+        let text = document.createTextNode(element[key]);
+        cell.appendChild(text);
+        let rcCode = "r" + r + "c" + c;
+        cell.classList.add(rcCode);
+        c++;
+      }
+    }
+    return
+  };
+};
+
+// let tableFromClass = document.createElement("table");
+let tableFromClass = document.querySelector("#table-from-class");
+tableFromClass.id = "table-from-class";
+
+// we are passing a <table> object! not the id of the table !!
+// I should check which option is better...
+let newTbl = new Table(tableFromClass, mountains);
+newTbl.render();
 
 // functions
 function generateTableHead(table, data) {
