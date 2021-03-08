@@ -1,10 +1,10 @@
 // sample data
 let mountains = [
-  { name: "Monte Falco", height: 1658, place: "Parco Foreste Casentinesi" },
-  { name: "Monte Falterona", height: 1654, place: "Parco Foreste Casentinesi" },
-  { name: "Poggio Scali", height: 1520, place: "Parco Foreste Casentinesi" },
-  { name: "Pratomagno", height: 1592, place: "Parco Foreste Casentinesi" },
-  { name: "Monte Amiata", height: 1738, place: "Siena" }
+  { name: "Monte Falco", height: 1658, place: "Parco Foreste Casentinesi", bestSeason: "Spring" },
+  { name: "Monte Falterona", height: 1654, place: "Parco Foreste Casentinesi", bestSeason: "Summer" },
+  { name: "Poggio Scali", height: 1520, place: "Parco Foreste Casentinesi", bestSeason: "Winter" },
+  { name: "Pratomagno", height: 1592, place: "Parco Foreste Casentinesi", bestSeason: "Summer" },
+  { name: "Monte Amiata", height: 1738, place: "Siena", bestSeason: "Spring" }
 ];
 
 // display input data on HTML
@@ -15,11 +15,29 @@ inputData.innerHTML = jsonMountains;
 // console.log('original data');
 // console.log(mountains);
 
-function Table(tableId, data) {
+function merge(dst, src) {
+  // will merge the common properties of the dst object to the src object in all levels of nesting
+  // leaving any properties that are not common intact
+  // see: https://stackoverflow.com/questions/56188121/how-to-merge-two-objects-overriding-null-values
+  Object.keys(src).forEach((key) => {
+    if (!dst[key]) {
+      dst[key] = src[key];
+    } else if (typeof src[key] === 'object' && src[key] !== null && typeof dst[key] === 'object' && dst[key] !== null) {
+      merge(dst[key], src[key]);
+    }
+  });
+}
+
+// Table object
+function Table(table, data) {
+  // table: a <table> HTML object
+  // data: an array of row objects
+  // =======================
   // input
-  this.tableId = tableId;
-  this.data = data;
-  this.headers = Object.keys(data[0]);
+  this.table = table;
+  this.initialData = data;  // this variable will never change
+  this.data = data;         // we will modify and render data
+  this.headers = Object.keys(this.data[0]);
 
   // methods
   this.render = function() {
@@ -28,8 +46,27 @@ function Table(tableId, data) {
     this.generateTableHead();
   };
 
+  this.resetData = function() {
+    this.data = this.initialData;
+  };
+
+  this.distinct = function(field) {
+    return this.data.map(d => d[field])
+      .filter((value, index, self) => self.indexOf(value) === index)
+      .map(String);
+  };
+
+  this.pivot = function(rowField, pivotField, valueField) {
+    // first modify data, then combine distinct rows according to rowField
+    this.data = this.twoDimGrid(rowField, pivotField, valueField);
+    let pivotData = this.mergeDistinct(rowField);
+    // reset data
+    this.resetData();
+    return pivotData;
+  };
+
   this.generateTableHead = function() {
-    let thead = tableId.createTHead();
+    let thead = this.table.createTHead();
     let row = thead.insertRow();
     let r = 0;  // set to 0 as this is the header
     let c = 0;  // add column id to header
@@ -47,9 +84,9 @@ function Table(tableId, data) {
 
   this.generateTableBody = function() {
     let r = 0;
-    for (let element of data) {
+    for (let element of this.data) {
       let c = 0;
-      let row = tableId.insertRow();
+      let row = this.table.insertRow();
       let rCode = "r" + r;
       row.classList.add(rCode);
       r++;
@@ -64,6 +101,48 @@ function Table(tableId, data) {
     }
     return
   };
+
+  this.mergeDistinct = function(field) {
+    // field: a string
+    // return: new dataset to render
+    // we will iterate through each row in the selected field
+    // within data, and merge the distinct data objects in an array of rows
+    let newArr = [];
+    let firstObj = this.data[0];
+    for (let obj of this.data) {
+      if(obj[field] === firstObj[field]) {
+        merge(firstObj, obj);
+      } else {
+        newArr.push(obj);
+      }
+    }
+    // unshift rather than push
+    newArr.unshift(firstObj);
+    return newArr;
+  };
+
+  this.twoDimGrid = function(rowField, pivotField, valueField) {
+    // pivot one column and distributes data along the diagonal
+    // get distinct values from pivotField:
+    let pivotFieldValues = this.distinct(pivotField);
+    let newArr = [];
+    for(let element of this.data) {
+      let newObj = {};
+      newObj[rowField] = element[rowField];
+      // loop through values of the pivoted dimension
+      for(let val of pivotFieldValues) {
+        if(element[pivotField] === val) {
+          // TODO !!
+          newObj[val] = element[valueField];
+        } else {
+          newObj[val] = null
+        }
+      }
+      newArr.push(newObj);
+    }
+    return newArr;
+  };
+
 };
 
 // let tableFromClass = document.createElement("table");
@@ -131,11 +210,7 @@ function generateTable2(table, data, mainKey) {
 // selectors
 // const container = document.querySelector('#container');
 let tableOriginal = document.querySelector("#table-original");
-
 let headOriginal = Object.keys(mountains[0]);
-
-// console.log(data);
-
 // render table
 generateTable(tableOriginal, mountains); // generate the table first
 generateTableHead(tableOriginal, headOriginal); // then the head
@@ -165,19 +240,6 @@ function transpData(data, mainKey, pivotKey, valueKey) {
     newArr.push(newObj);
   }
   return newArr;
-}
-
-function merge(dst, src) {
-  // will merge the common properties of the dst object to the src object in all levels of nesting
-  // leaving any properties that are not common intact
-  // see: https://stackoverflow.com/questions/56188121/how-to-merge-two-objects-overriding-null-values
-  Object.keys(src).forEach((key) => {
-    if (!dst[key]) {
-      dst[key] = src[key];
-    } else if (typeof src[key] === 'object' && src[key] !== null && typeof dst[key] === 'object' && dst[key] !== null) {
-      merge(dst[key], src[key]);
-    }
-  });
 }
 
 function mergeTranspData(data, mainKey) {
