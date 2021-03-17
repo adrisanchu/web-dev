@@ -1,0 +1,11 @@
+#container {
+    padding: 0;
+}
+
+#map {
+    display: flex;
+    padding: 0;
+    min-width: 512px;
+    min-height: 512px;
+    max-width: 1024px;
+}
