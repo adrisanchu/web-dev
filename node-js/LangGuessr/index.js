@@ -15,10 +15,15 @@ if (langCode === 'und'){
 } else {
     // convert langCode to language
     const language = langs.where("3", langCode);
-    // return either the input or the example sentence
-    if (input) {
-        console.log(`The sentence ${input} is in ... ${language.name}!`);
-    } else {
-        console.log(`The sentence "${textFr}" is in ... ${language.name}!`);
+    
+    if (language) {
+        // return either the input or the example sentence
+        if (input) {
+            console.log(`The sentence "${input}" is in ... ${language.name}!`);
+        } else {
+            console.log(`The sentence "${textFr}" is in ... ${language.name}!`);
+        }
+    } else {  // there was a problem converting the language code !
+        console.log(`The sentence "${input}" has the language code: ${langCode}. No language name found!`);
     }
 }
