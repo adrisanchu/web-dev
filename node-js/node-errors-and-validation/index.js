@@ -34,6 +34,35 @@ app.get('/admin', (req, res) => {
     throw new AppError('You are not an admin!', 403);
 });
 
+// error handling in asynchronous js
+app.get('/async', async(req, res, next) => {
+    // we have to wait ! so we need to pass the error
+    // INSIDE next() !!
+    let test = () => {
+        // if bool is false, then error
+        // if bool is true, ok !
+        let bool = false;
+        setTimeout(() => {
+            // random nbr, 0 or 1
+            rand = Math.floor(Math.random() * 2);
+            console.log(`from await, r=${rand}`);
+            if (rand === 1) {
+                bool = false;
+            } else {
+                bool = true;
+            }
+            console.log(bool);
+            // we fake an error happening
+            if(!bool) {
+                return next(new AppError('Async Err!', 404));
+            }
+            return res.send('I am coming from await !!');
+        }, 3000);
+    }
+    console.log('coming out of async!');
+    test();
+});
+
 // custom error handler, using our custom AppError class
 app.use((err, req, res, next) => {
     // add up our class !
