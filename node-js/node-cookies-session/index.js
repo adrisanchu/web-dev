@@ -4,7 +4,8 @@ const cookieParser = require('cookie-parser');
 const app = express();
 
 // use cookieParser as a middleware
-app.use(cookieParser());
+// (optional) pass a secret string
+app.use(cookieParser('thisismysecret'));
 
 // use req.cookies to access the cookie object
 app.get('/greet', (req, res) => {
@@ -15,6 +16,16 @@ app.get('/greet', (req, res) => {
 app.get('/setname', (req, res) => {
     res.cookie('name', 'Adri Sanchez');
     res.send('sending cookie');
+});
+
+// signed cookie
+app.get('/getsignedcookie', (req, res) => {
+    res.cookie('fruit', 'grape', { signed: true });
+    res.send('fruit cookie signed');
+});
+
+app.get('/verifyfruit', (req, res) => {
+    res.send(req.cookies);
 });
 
 app.listen(3000, () => {
