@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const User = require('./models/user');
+const bcrypt = require('bcrypt');
 
 const app = express();
 
@@ -21,12 +22,26 @@ app.set('views', 'views');
 
 app.use(express.urlencoded({ extended: true }));
 
+app.get('/', (req, res) => {
+    res.send('this is the home page');
+});
+
 app.get('/register', (req, res) => {
     res.render('register');
 });
 
 app.post('/register', async(req, res) => {
-    res.send(req.body);
+    // destructure body data from form
+    const { password, username } = req.body;
+    // use bcrypt to hash our password
+    const hash = await bcrypt.hash(password, 12);
+    // save user data into MongoDB
+    const user = new User({
+        username,
+        password: hash
+    });
+    await user.save();
+    res.redirect('/');
 });
 
 app.get('/secret', (req, res) => {
