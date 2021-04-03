@@ -48,12 +48,18 @@ app.post('/register', async(req, res) => {
     res.redirect('/');
 });
 
+app.post('/logout', (req, res) => {
+    // remove session id
+    req.session.user_id = null;
+    res.redirect('/login');
+});
+
 app.get('/secret', (req, res) => {
     // check if we are already logged in ...
     if(!req.session.user_id) {
-        res.redirect('/login');
+        return res.redirect('/login');
     }
-    res.send('secret...');
+    res.render('secret');
 });
 
 app.get('/login', (req, res) => {
