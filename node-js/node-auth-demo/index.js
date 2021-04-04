@@ -73,11 +73,11 @@ app.get('/login', (req, res) => {
 
 app.post('/login', async(req, res) => {
     const { password, username } = req.body;
-    const user = await User.findOne({ username: username });
-    const validPassword = await bcrypt.compare(password, user.password);
-    if(validPassword){
+    // static method to validate user, created on the mongoose model
+    const foundUser = await User.findAndValidate(username, password);
+    if(foundUser){
         // add user_id to session, equals to Mongo _id !
-        req.session.user_id = user._id;
+        req.session.user_id = foundUser._id;
         res.redirect('/secret');
     } else {
         res.redirect('/login');
