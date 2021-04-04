@@ -18,4 +18,13 @@ userSchema.statics.findAndValidate = async function (username, password) {
     return isValid ? foundUser : false;
 };
 
+// everytime we trigger 'User.save()', we first execute this !
+userSchema.pre('save', async function(next){
+    // password hashing needed only if password has changed !
+    if (!this.isModified('password')) return next();
+    // password hashing happens here!
+    this.password = await bcrypt.hash(this.password, 12);
+    next();
+});
+
 module.exports = mongoose.model('User', userSchema);

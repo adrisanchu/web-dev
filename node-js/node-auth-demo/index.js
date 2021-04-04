@@ -43,13 +43,9 @@ app.get('/register', (req, res) => {
 app.post('/register', async(req, res) => {
     // destructure body data from form
     const { password, username } = req.body;
-    // use bcrypt to hash our password
-    const hash = await bcrypt.hash(password, 12);
     // save user data into MongoDB
-    const user = new User({
-        username,
-        password: hash
-    });
+    // password hashing managed by User model !
+    const user = new User({ username, password });
     await user.save();
     // add user_id to session, equals to Mongo _id !
     req.session.user_id = user._id;
