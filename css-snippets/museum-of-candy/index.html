@@ -65,6 +65,29 @@
         </div>
       </div>
     </section>
+
+    <section class="container-fluid px-0">
+      <!-- align-items-center moves the content on the middle (height) -->
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="imgs/milk.png" alt="" class="img-fluid">
+        </div>
+        <!-- text-center inside the row makes any text centered! -->
+        <div class="col-md-6 text-center">
+          <!-- inside this col-6 (half the screen), we use grid system -->
+          <!-- to generate some spacing: 2u on sides + 10u in the middle -->
+          <!-- using justify-content-center + col-10 makes this effect! -->
+          <div class="row justify-content-center">
+            <div class="col-10">
+              <h2 class="">MUSEUM OF CANDY</h2>
+              <!-- d-none + d-lg-inline plays with display effects to show or not the img -->
+              <!-- depending on the size of the screen -->
+              <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore neque modi perspiciatis? Doloribus dolorem laborum ut accusantium. In, sequi dolor minima nisi incidunt sapiente esse? Aliquid molestiae minus temporibus rem.</p>
+            </div>
+          </div>
+      </div>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
