@@ -30,6 +30,17 @@ class Color {
         const { h, s, l } = this;
         return `hsl(${h}, ${s}%, ${l}%)`;
     }
+    fulllySaturated() {
+        // force 100% saturation
+		const { h, l } = this;
+		return `hsl(${h},100%, ${l}%)`;
+	}
+    opposite() {
+        // generate the opposite hsl color
+        const { h, s, l } = this;
+        const newHue = (h + 180) % 360;
+        return `hsl(${newHue}, ${s}%, ${l}%)`;
+    }
     // transform RGB into HSL
     calcHSL() {
         let { r, g, b } = this;
