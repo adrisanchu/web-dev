@@ -1,0 +1,508 @@
+{
+  "path": "C:/Users/SANRODAD/Code/local/Power BI/adri-bi",
+  "level": 0,
+  "size": 0,
+  "isDirectory": true,
+  "children": [
+    {
+      "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git",
+      "level": 1,
+      "size": 0,
+      "isDirectory": true,
+      "children": [
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\COMMIT_EDITMSG",
+          "level": 2,
+          "size": 14,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\config",
+          "level": 2,
+          "size": 300,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\description",
+          "level": 2,
+          "size": 73,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\FETCH_HEAD",
+          "level": 2,
+          "size": 97,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\HEAD",
+          "level": 2,
+          "size": 21,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\applypatch-msg.sample",
+              "level": 3,
+              "size": 478,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\commit-msg.sample",
+              "level": 3,
+              "size": 896,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\fsmonitor-watchman.sample",
+              "level": 3,
+              "size": 3327,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\post-update.sample",
+              "level": 3,
+              "size": 189,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\pre-applypatch.sample",
+              "level": 3,
+              "size": 424,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\pre-commit.sample",
+              "level": 3,
+              "size": 1638,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\pre-push.sample",
+              "level": 3,
+              "size": 1348,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\pre-rebase.sample",
+              "level": 3,
+              "size": 4898,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\pre-receive.sample",
+              "level": 3,
+              "size": 544,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\prepare-commit-msg.sample",
+              "level": 3,
+              "size": 1492,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\hooks\\update.sample",
+              "level": 3,
+              "size": 3610,
+              "isDirectory": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\index",
+          "level": 2,
+          "size": 690,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\info",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\info\\exclude",
+              "level": 3,
+              "size": 240,
+              "isDirectory": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\logs",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\logs\\HEAD",
+              "level": 3,
+              "size": 883,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\logs\\refs",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\04",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\0a",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\13",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\1e",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\28",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\3b",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\44",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\49",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\5a",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\6d",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\75",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\8e",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\8f",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\97",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\a4",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\a9",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\b6",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\bb",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\cc",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\ce",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\d1",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\d6",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\e7",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\f0",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\f6",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\info",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\objects\\pack",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\ORIG_HEAD",
+          "level": 2,
+          "size": 41,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\packed-refs",
+          "level": 2,
+          "size": 112,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\refs",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\refs\\heads",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\refs\\remotes",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.git\\refs\\tags",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\.gitignore",
+      "level": 1,
+      "size": 7,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\adri-bi.pbix",
+      "level": 1,
+      "size": 98536,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\data",
+      "level": 1,
+      "size": 0,
+      "isDirectory": true,
+      "children": [
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\data\\adri-bi-data.xlsx",
+          "level": 2,
+          "size": 173207,
+          "isDirectory": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\README.md",
+      "level": 1,
+      "size": 126,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\styles",
+      "level": 1,
+      "size": 0,
+      "isDirectory": true,
+      "children": [
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\styles\\background",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": []
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\styles\\img",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\styles\\img\\SANCHEZ RODRIGUEZ Adrian__03.jpg",
+              "level": 3,
+              "size": 55641,
+              "isDirectory": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\styles\\theme",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\styles\\theme\\adri-bi-datacolors.json",
+              "level": 3,
+              "size": 1088,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "C:\\Users\\SANRODAD\\Code\\local\\Power BI\\adri-bi\\styles\\theme\\adri-bi.json",
+              "level": 3,
+              "size": 1092,
+              "isDirectory": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
