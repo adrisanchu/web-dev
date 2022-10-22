@@ -1,4 +1,4 @@
-// To run: node node-js/nod-intro/readFiles.js {the path!}
+// To run: node node-js/node-intro/readFiles.js {the path!}
 // valid path in Mac:
 // /Users/Adri/Downloads
 // /Users/Adri/Music/Music

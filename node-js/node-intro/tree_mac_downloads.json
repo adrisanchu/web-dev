@@ -1,0 +1,2792 @@
+{
+  "path": "/Users/Adri/Downloads",
+  "level": 0,
+  "size": 0,
+  "isDirectory": true,
+  "children": [
+    {
+      "path": "/Users/Adri/Downloads/.DS_Store",
+      "level": 1,
+      "size": 6148,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/.localized",
+      "level": 1,
+      "size": 0,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/06-usereducer-starting-project.zip",
+      "level": 1,
+      "size": 31930,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/2014-Energy-Balances-June2016edition.xlsx",
+      "level": 1,
+      "size": 2799495,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/ACER Decision 24-2020 on ERAA - Annex I.pdf",
+      "level": 1,
+      "size": 408190,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/AVE_BCN_MAD.pdf",
+      "level": 1,
+      "size": 672456,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/Accounts.zip",
+      "level": 1,
+      "size": 733834,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/Acusament_rebuda.pdf",
+      "level": 1,
+      "size": 95672,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/Cita_P184801.pdf",
+      "level": 1,
+      "size": 32059,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/EF_Certificates_12.pdf",
+      "level": 1,
+      "size": 1067364,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/EREQT_1-10TCODACT_1-1DGGZ7JWA.PDF",
+      "level": 1,
+      "size": 80719,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/EleQues.xlsm",
+      "level": 1,
+      "size": 3489421,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/Energy-Balance-Formulas.xlsx",
+      "level": 1,
+      "size": 73516,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/Energy-balance-builder-90409.xlsm",
+      "level": 1,
+      "size": 1630362,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/IBERIA_NC1SK (1).pdf",
+      "level": 1,
+      "size": 154428,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/IBERIA_NC1SK.pdf",
+      "level": 1,
+      "size": 154428,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/IMG-20220401-WA0012.jpg",
+      "level": 1,
+      "size": 85707,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/Impuesto2021.pdf",
+      "level": 1,
+      "size": 173383,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/Justificante_14083260.pdf",
+      "level": 1,
+      "size": 189579,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/Justificante_operacion.pdf",
+      "level": 1,
+      "size": 115291,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/LG",
+      "level": 1,
+      "size": 0,
+      "isDirectory": true,
+      "children": [
+        {
+          "path": "/Users/Adri/Downloads/LG/LG_Box1.jpeg",
+          "level": 2,
+          "size": 180935,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/LG/LG_Box2.jpeg",
+          "level": 2,
+          "size": 202377,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/LG/LG_Etiquetas.png",
+          "level": 2,
+          "size": 3409201,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/LG/LG_Factura.png",
+          "level": 2,
+          "size": 348496,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/LG/LG_Factura_55NANO886PB.pdf",
+          "level": 2,
+          "size": 71524,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/LG/LG_Instalacion.jpeg",
+          "level": 2,
+          "size": 177818,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/LG/LG_Reseña.png",
+          "level": 2,
+          "size": 198144,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/LG/LG_Reverso.jpeg",
+          "level": 2,
+          "size": 200928,
+          "isDirectory": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "/Users/Adri/Downloads/MNE Mentorship.png",
+      "level": 1,
+      "size": 2273684,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/Notion-2.0.19-arm64.dmg",
+      "level": 1,
+      "size": 170417567,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/PDFDeclaracion_2021.pdf",
+      "level": 1,
+      "size": 323364,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/R3PWGZ7MN_16_09_2022_13_21_19_756.pdf",
+      "level": 1,
+      "size": 218415,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/[MP3FY] MGMT - Kids (Official HD Video).mp3",
+      "level": 1,
+      "size": 5934405,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/[MP3FY] The Black Keys - Howlin' For You [Official Music Video].mp3",
+      "level": 1,
+      "size": 3063496,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/[MP3FY] The Black Keys - Lonely Boy [Official Music Video].mp3",
+      "level": 1,
+      "size": 3158472,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/[MP3FY] The Hives - Hate to Say I Told You So.mp3",
+      "level": 1,
+      "size": 3184486,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53",
+      "level": 1,
+      "size": 0,
+      "isDirectory": true,
+      "children": [
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/.htaccess",
+          "level": 2,
+          "size": 482,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/APP-DATA.SQL",
+          "level": 2,
+          "size": 1083497,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/APP-META.INI",
+          "level": 2,
+          "size": 9266,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/index.php",
+          "level": 2,
+          "size": 405,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/license.txt",
+          "level": 2,
+          "size": 19915,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-activate.php",
+          "level": 2,
+          "size": 7101,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/about.php",
+              "level": 3,
+              "size": 20540,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/admin-ajax.php",
+              "level": 3,
+              "size": 4690,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/admin-footer.php",
+              "level": 3,
+              "size": 2832,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/admin-functions.php",
+              "level": 3,
+              "size": 406,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/admin-header.php",
+              "level": 3,
+              "size": 8624,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/admin-post.php",
+              "level": 3,
+              "size": 1671,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/admin.php",
+              "level": 3,
+              "size": 12133,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/async-upload.php",
+              "level": 3,
+              "size": 3834,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/comment.php",
+              "level": 3,
+              "size": 11374,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/credits.php",
+              "level": 3,
+              "size": 3861,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/css",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/custom-background.php",
+              "level": 3,
+              "size": 416,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/custom-header.php",
+              "level": 3,
+              "size": 426,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/customize.php",
+              "level": 3,
+              "size": 10316,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/edit-comments.php",
+              "level": 3,
+              "size": 13744,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/edit-form-advanced.php",
+              "level": 3,
+              "size": 28902,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/edit-form-blocks.php",
+              "level": 3,
+              "size": 14823,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/edit-form-comment.php",
+              "level": 3,
+              "size": 8104,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/edit-link-form.php",
+              "level": 3,
+              "size": 6233,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/edit-tag-form.php",
+              "level": 3,
+              "size": 10107,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/edit-tags.php",
+              "level": 3,
+              "size": 21910,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/edit.php",
+              "level": 3,
+              "size": 18505,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/erase-personal-data.php",
+              "level": 3,
+              "size": 3231,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/export-personal-data.php",
+              "level": 3,
+              "size": 3206,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/export.php",
+              "level": 3,
+              "size": 10972,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/freedoms.php",
+              "level": 3,
+              "size": 4567,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/images",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/import.php",
+              "level": 3,
+              "size": 7530,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/includes",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/index.php",
+              "level": 3,
+              "size": 6913,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/install-helper.php",
+              "level": 3,
+              "size": 6031,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/install.php",
+              "level": 3,
+              "size": 16902,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/js",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/link-add.php",
+              "level": 3,
+              "size": 711,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/link-manager.php",
+              "level": 3,
+              "size": 4189,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/link-parse-opml.php",
+              "level": 3,
+              "size": 2654,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/link.php",
+              "level": 3,
+              "size": 2732,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/load-scripts.php",
+              "level": 3,
+              "size": 1693,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/load-styles.php",
+              "level": 3,
+              "size": 2302,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/maint",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/media-new.php",
+              "level": 3,
+              "size": 3199,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/media-upload.php",
+              "level": 3,
+              "size": 3489,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/media.php",
+              "level": 3,
+              "size": 5598,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/menu-header.php",
+              "level": 3,
+              "size": 9834,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/menu.php",
+              "level": 3,
+              "size": 14526,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/moderation.php",
+              "level": 3,
+              "size": 307,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/ms-admin.php",
+              "level": 3,
+              "size": 196,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/ms-delete-site.php",
+              "level": 3,
+              "size": 4277,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/ms-edit.php",
+              "level": 3,
+              "size": 216,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/ms-options.php",
+              "level": 3,
+              "size": 223,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/ms-sites.php",
+              "level": 3,
+              "size": 215,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/ms-themes.php",
+              "level": 3,
+              "size": 217,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/ms-upgrade-network.php",
+              "level": 3,
+              "size": 219,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/ms-users.php",
+              "level": 3,
+              "size": 215,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/my-sites.php",
+              "level": 3,
+              "size": 4646,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/nav-menus.php",
+              "level": 3,
+              "size": 44766,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/network",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/network.php",
+              "level": 3,
+              "size": 5380,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/options-discussion.php",
+              "level": 3,
+              "size": 15444,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/options-general.php",
+              "level": 3,
+              "size": 14957,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/options-head.php",
+              "level": 3,
+              "size": 492,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/options-media.php",
+              "level": 3,
+              "size": 6299,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/options-permalink.php",
+              "level": 3,
+              "size": 19212,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/options-privacy.php",
+              "level": 3,
+              "size": 8072,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/options-reading.php",
+              "level": 3,
+              "size": 9706,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/options-writing.php",
+              "level": 3,
+              "size": 8624,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/options.php",
+              "level": 3,
+              "size": 12779,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/plugin-editor.php",
+              "level": 3,
+              "size": 13327,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/plugin-install.php",
+              "level": 3,
+              "size": 6357,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/plugins.php",
+              "level": 3,
+              "size": 29110,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/post-new.php",
+              "level": 3,
+              "size": 2703,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/post.php",
+              "level": 3,
+              "size": 9997,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/press-this.php",
+              "level": 3,
+              "size": 2386,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/privacy-policy-guide.php",
+              "level": 3,
+              "size": 833,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/privacy.php",
+              "level": 3,
+              "size": 2309,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/profile.php",
+              "level": 3,
+              "size": 283,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/revision.php",
+              "level": 3,
+              "size": 5537,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/setup-config.php",
+              "level": 3,
+              "size": 15808,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/site-health-info.php",
+              "level": 3,
+              "size": 5783,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/site-health.php",
+              "level": 3,
+              "size": 5339,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/term.php",
+              "level": 3,
+              "size": 2253,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/theme-editor.php",
+              "level": 3,
+              "size": 15034,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/theme-install.php",
+              "level": 3,
+              "size": 21993,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/themes.php",
+              "level": 3,
+              "size": 44832,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/tools.php",
+              "level": 3,
+              "size": 3452,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/update-core.php",
+              "level": 3,
+              "size": 38291,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/update.php",
+              "level": 3,
+              "size": 12522,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/upgrade-functions.php",
+              "level": 3,
+              "size": 341,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/upgrade.php",
+              "level": 3,
+              "size": 5599,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/upload.php",
+              "level": 3,
+              "size": 13965,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/user",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/user-edit.php",
+              "level": 3,
+              "size": 29205,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/user-new.php",
+              "level": 3,
+              "size": 23181,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/users.php",
+              "level": 3,
+              "size": 19892,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-admin/widgets.php",
+              "level": 3,
+              "size": 19741,
+              "isDirectory": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-blog-header.php",
+          "level": 2,
+          "size": 351,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-comments-post.php",
+          "level": 2,
+          "size": 2332,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-config-sample.php",
+          "level": 2,
+          "size": 2913,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-config.php",
+          "level": 2,
+          "size": 3678,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-content",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-content/blogs.dir",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-content/index.php",
+              "level": 3,
+              "size": 28,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-content/languages",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-content/mu-plugins",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-content/plugins",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-content/themes",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-content/upgrade",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-content/uploads",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-cron.php",
+          "level": 2,
+          "size": 3940,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes",
+          "level": 2,
+          "size": 0,
+          "isDirectory": true,
+          "children": [
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/.htaccess",
+              "level": 3,
+              "size": 136,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ID3",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/IXR",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/PHPMailer",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/Requests",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/SimplePie",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/Text",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/admin-bar.php",
+              "level": 3,
+              "size": 31699,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/assets",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/atomlib.php",
+              "level": 3,
+              "size": 11864,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/author-template.php",
+              "level": 3,
+              "size": 17019,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/block-patterns",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/block-patterns.php",
+              "level": 3,
+              "size": 1450,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/blocks",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/blocks.php",
+              "level": 3,
+              "size": 25868,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/bookmark-template.php",
+              "level": 3,
+              "size": 12515,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/bookmark.php",
+              "level": 3,
+              "size": 15131,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/cache-compat.php",
+              "level": 3,
+              "size": 1046,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/cache.php",
+              "level": 3,
+              "size": 9507,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/canonical.php",
+              "level": 3,
+              "size": 31388,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/capabilities.php",
+              "level": 3,
+              "size": 34795,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/category-template.php",
+              "level": 3,
+              "size": 54913,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/category.php",
+              "level": 3,
+              "size": 12712,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/certificates",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-IXR.php",
+              "level": 3,
+              "size": 2543,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-feed.php",
+              "level": 3,
+              "size": 529,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-http.php",
+              "level": 3,
+              "size": 39717,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-json.php",
+              "level": 3,
+              "size": 43447,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-oembed.php",
+              "level": 3,
+              "size": 407,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-phpass.php",
+              "level": 3,
+              "size": 7319,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-phpmailer.php",
+              "level": 3,
+              "size": 664,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-pop3.php",
+              "level": 3,
+              "size": 20837,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-requests.php",
+              "level": 3,
+              "size": 29843,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-simplepie.php",
+              "level": 3,
+              "size": 96271,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-smtp.php",
+              "level": 3,
+              "size": 452,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-snoopy.php",
+              "level": 3,
+              "size": 37715,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-walker-category-dropdown.php",
+              "level": 3,
+              "size": 2127,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-walker-category.php",
+              "level": 3,
+              "size": 7878,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-walker-comment.php",
+              "level": 3,
+              "size": 13690,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-walker-nav-menu.php",
+              "level": 3,
+              "size": 8650,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-walker-page-dropdown.php",
+              "level": 3,
+              "size": 2299,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-walker-page.php",
+              "level": 3,
+              "size": 7043,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-admin-bar.php",
+              "level": 3,
+              "size": 16856,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-ajax-response.php",
+              "level": 3,
+              "size": 5240,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-block-list.php",
+              "level": 3,
+              "size": 4473,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-block-parser.php",
+              "level": 3,
+              "size": 15215,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-block-pattern-categories-registry.php",
+              "level": 3,
+              "size": 4176,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-block-patterns-registry.php",
+              "level": 3,
+              "size": 4473,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-block-styles-registry.php",
+              "level": 3,
+              "size": 4728,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-block-type-registry.php",
+              "level": 3,
+              "size": 4802,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-block-type.php",
+              "level": 3,
+              "size": 6018,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-block.php",
+              "level": 3,
+              "size": 6115,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-comment-query.php",
+              "level": 3,
+              "size": 44624,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-comment.php",
+              "level": 3,
+              "size": 9040,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-customize-control.php",
+              "level": 3,
+              "size": 25505,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-customize-manager.php",
+              "level": 3,
+              "size": 201080,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-customize-nav-menus.php",
+              "level": 3,
+              "size": 56803,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-customize-panel.php",
+              "level": 3,
+              "size": 10400,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-customize-section.php",
+              "level": 3,
+              "size": 10974,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-customize-setting.php",
+              "level": 3,
+              "size": 29722,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-customize-widgets.php",
+              "level": 3,
+              "size": 67031,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-date-query.php",
+              "level": 3,
+              "size": 34883,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-dependency.php",
+              "level": 3,
+              "size": 2511,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-editor.php",
+              "level": 3,
+              "size": 70584,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-embed.php",
+              "level": 3,
+              "size": 15791,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-error.php",
+              "level": 3,
+              "size": 4960,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-fatal-error-handler.php",
+              "level": 3,
+              "size": 7547,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-feed-cache-transient.php",
+              "level": 3,
+              "size": 2560,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-feed-cache.php",
+              "level": 3,
+              "size": 749,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-hook.php",
+              "level": 3,
+              "size": 14051,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-http-cookie.php",
+              "level": 3,
+              "size": 7186,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-http-curl.php",
+              "level": 3,
+              "size": 12349,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-http-encoding.php",
+              "level": 3,
+              "size": 6558,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-http-ixr-client.php",
+              "level": 3,
+              "size": 3470,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-http-proxy.php",
+              "level": 3,
+              "size": 5863,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-http-requests-hooks.php",
+              "level": 3,
+              "size": 1962,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-http-requests-response.php",
+              "level": 3,
+              "size": 4343,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-http-response.php",
+              "level": 3,
+              "size": 2951,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-http-streams.php",
+              "level": 3,
+              "size": 16108,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-image-editor-gd.php",
+              "level": 3,
+              "size": 14138,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-image-editor-imagick.php",
+              "level": 3,
+              "size": 23878,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-image-editor.php",
+              "level": 3,
+              "size": 14098,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-list-util.php",
+              "level": 3,
+              "size": 6615,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-locale-switcher.php",
+              "level": 3,
+              "size": 5022,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-locale.php",
+              "level": 3,
+              "size": 13916,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-matchesmapregex.php",
+              "level": 3,
+              "size": 1804,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-meta-query.php",
+              "level": 3,
+              "size": 27869,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-metadata-lazyloader.php",
+              "level": 3,
+              "size": 5386,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-network-query.php",
+              "level": 3,
+              "size": 18375,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-network.php",
+              "level": 3,
+              "size": 12376,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-object-cache.php",
+              "level": 3,
+              "size": 13541,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-oembed-controller.php",
+              "level": 3,
+              "size": 6788,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-oembed.php",
+              "level": 3,
+              "size": 28985,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-paused-extensions-storage.php",
+              "level": 3,
+              "size": 4923,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-post-type.php",
+              "level": 3,
+              "size": 19534,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-post.php",
+              "level": 3,
+              "size": 6441,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-query.php",
+              "level": 3,
+              "size": 133807,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-recovery-mode-cookie-service.php",
+              "level": 3,
+              "size": 6457,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-recovery-mode-email-service.php",
+              "level": 3,
+              "size": 10127,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-recovery-mode-key-service.php",
+              "level": 3,
+              "size": 4270,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-recovery-mode-link-service.php",
+              "level": 3,
+              "size": 3368,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-recovery-mode.php",
+              "level": 3,
+              "size": 11376,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-rewrite.php",
+              "level": 3,
+              "size": 60842,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-role.php",
+              "level": 3,
+              "size": 2498,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-roles.php",
+              "level": 3,
+              "size": 8430,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-session-tokens.php",
+              "level": 3,
+              "size": 7431,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-simplepie-file.php",
+              "level": 3,
+              "size": 2328,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-simplepie-sanitize-kses.php",
+              "level": 3,
+              "size": 1775,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-site-query.php",
+              "level": 3,
+              "size": 28550,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-site.php",
+              "level": 3,
+              "size": 7367,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-tax-query.php",
+              "level": 3,
+              "size": 19437,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-taxonomy.php",
+              "level": 3,
+              "size": 12573,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-term-query.php",
+              "level": 3,
+              "size": 36170,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-term.php",
+              "level": 3,
+              "size": 5265,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-text-diff-renderer-inline.php",
+              "level": 3,
+              "size": 716,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-text-diff-renderer-table.php",
+              "level": 3,
+              "size": 16876,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-theme.php",
+              "level": 3,
+              "size": 50718,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-user-meta-session-tokens.php",
+              "level": 3,
+              "size": 2990,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-user-query.php",
+              "level": 3,
+              "size": 31357,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-user-request.php",
+              "level": 3,
+              "size": 2196,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-user.php",
+              "level": 3,
+              "size": 22146,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-walker.php",
+              "level": 3,
+              "size": 12723,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-widget-factory.php",
+              "level": 3,
+              "size": 2620,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-widget.php",
+              "level": 3,
+              "size": 17906,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp-xmlrpc-server.php",
+              "level": 3,
+              "size": 210453,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class-wp.php",
+              "level": 3,
+              "size": 25035,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class.wp-dependencies.php",
+              "level": 3,
+              "size": 12868,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class.wp-scripts.php",
+              "level": 3,
+              "size": 18469,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/class.wp-styles.php",
+              "level": 3,
+              "size": 10876,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/comment-template.php",
+              "level": 3,
+              "size": 94056,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/comment.php",
+              "level": 3,
+              "size": 125217,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/compat.php",
+              "level": 3,
+              "size": 11733,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/cron.php",
+              "level": 3,
+              "size": 32831,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/css",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/customize",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/date.php",
+              "level": 3,
+              "size": 406,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/default-constants.php",
+              "level": 3,
+              "size": 10263,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/default-filters.php",
+              "level": 3,
+              "size": 26766,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/default-widgets.php",
+              "level": 3,
+              "size": 2123,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/deprecated.php",
+              "level": 3,
+              "size": 120914,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/embed-template.php",
+              "level": 3,
+              "size": 341,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/embed.php",
+              "level": 3,
+              "size": 47541,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/error-protection.php",
+              "level": 3,
+              "size": 3382,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/feed-atom-comments.php",
+              "level": 3,
+              "size": 5444,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/feed-atom.php",
+              "level": 3,
+              "size": 3102,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/feed-rdf.php",
+              "level": 3,
+              "size": 2668,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/feed-rss.php",
+              "level": 3,
+              "size": 1189,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/feed-rss2-comments.php",
+              "level": 3,
+              "size": 4070,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/feed-rss2.php",
+              "level": 3,
+              "size": 3799,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/feed.php",
+              "level": 3,
+              "size": 22646,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/fonts",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/formatting.php",
+              "level": 3,
+              "size": 310921,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/functions.php",
+              "level": 3,
+              "size": 233552,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/functions.wp-scripts.php",
+              "level": 3,
+              "size": 13387,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/functions.wp-styles.php",
+              "level": 3,
+              "size": 8303,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/general-template.php",
+              "level": 3,
+              "size": 157685,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/http.php",
+              "level": 3,
+              "size": 22386,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/images",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/js",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/kses.php",
+              "level": 3,
+              "size": 63363,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/l10n.php",
+              "level": 3,
+              "size": 56578,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/link-template.php",
+              "level": 3,
+              "size": 144854,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/load.php",
+              "level": 3,
+              "size": 44875,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/locale.php",
+              "level": 3,
+              "size": 162,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/media-template.php",
+              "level": 3,
+              "size": 58648,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/media.php",
+              "level": 3,
+              "size": 162334,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/meta.php",
+              "level": 3,
+              "size": 59564,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-blogs.php",
+              "level": 3,
+              "size": 25173,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-default-constants.php",
+              "level": 3,
+              "size": 4710,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-default-filters.php",
+              "level": 3,
+              "size": 6496,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-deprecated.php",
+              "level": 3,
+              "size": 21129,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-files.php",
+              "level": 3,
+              "size": 2641,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-functions.php",
+              "level": 3,
+              "size": 90380,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-load.php",
+              "level": 3,
+              "size": 19822,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-network.php",
+              "level": 3,
+              "size": 3658,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-settings.php",
+              "level": 3,
+              "size": 4124,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/ms-site.php",
+              "level": 3,
+              "size": 43531,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/nav-menu-template.php",
+              "level": 3,
+              "size": 23296,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/nav-menu.php",
+              "level": 3,
+              "size": 41754,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/option.php",
+              "level": 3,
+              "size": 74396,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/pluggable-deprecated.php",
+              "level": 3,
+              "size": 6263,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/pluggable.php",
+              "level": 3,
+              "size": 102196,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/plugin.php",
+              "level": 3,
+              "size": 32415,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/pomo",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/post-formats.php",
+              "level": 3,
+              "size": 7075,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/post-template.php",
+              "level": 3,
+              "size": 63421,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/post-thumbnail-template.php",
+              "level": 3,
+              "size": 9217,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/post.php",
+              "level": 3,
+              "size": 249733,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/query.php",
+              "level": 3,
+              "size": 35526,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/random_compat",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/registration-functions.php",
+              "level": 3,
+              "size": 202,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/registration.php",
+              "level": 3,
+              "size": 202,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/rest-api",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/rest-api.php",
+              "level": 3,
+              "size": 67344,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/revision.php",
+              "level": 3,
+              "size": 21972,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/rewrite.php",
+              "level": 3,
+              "size": 18073,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/rss-functions.php",
+              "level": 3,
+              "size": 211,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/rss.php",
+              "level": 3,
+              "size": 22978,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/script-loader.php",
+              "level": 3,
+              "size": 92024,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/session.php",
+              "level": 3,
+              "size": 258,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/shortcodes.php",
+              "level": 3,
+              "size": 21415,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/sitemaps",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/sitemaps.php",
+              "level": 3,
+              "size": 3236,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/sodium_compat",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/spl-autoload-compat.php",
+              "level": 3,
+              "size": 443,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/taxonomy.php",
+              "level": 3,
+              "size": 162122,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/template-loader.php",
+              "level": 3,
+              "size": 3012,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/template.php",
+              "level": 3,
+              "size": 21523,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/theme-compat",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/theme.php",
+              "level": 3,
+              "size": 123820,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/update.php",
+              "level": 3,
+              "size": 26185,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/user.php",
+              "level": 3,
+              "size": 132766,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/vars.php",
+              "level": 3,
+              "size": 5820,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/version.php",
+              "level": 3,
+              "size": 796,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/widgets",
+              "level": 3,
+              "size": 0,
+              "isDirectory": true,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/widgets.php",
+              "level": 3,
+              "size": 59108,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/wlwmanifest.xml",
+              "level": 3,
+              "size": 1045,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/wp-db.php",
+              "level": 3,
+              "size": 105594,
+              "isDirectory": false,
+              "children": []
+            },
+            {
+              "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-includes/wp-diff.php",
+              "level": 3,
+              "size": 647,
+              "isDirectory": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-links-opml.php",
+          "level": 2,
+          "size": 2496,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-load.php",
+          "level": 2,
+          "size": 3300,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-login.php",
+          "level": 2,
+          "size": 48761,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-mail.php",
+          "level": 2,
+          "size": 8509,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-settings.php",
+          "level": 2,
+          "size": 20181,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-signup.php",
+          "level": 2,
+          "size": 31159,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/wp-trackback.php",
+          "level": 2,
+          "size": 4755,
+          "isDirectory": false,
+          "children": []
+        },
+        {
+          "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53/xmlrpc.php",
+          "level": 2,
+          "size": 3236,
+          "isDirectory": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "/Users/Adri/Downloads/app_constant-urban-eu_Mi-blog_2022-05-21_14-03-53.tar.gz",
+      "level": 1,
+      "size": 112758378,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/clemenfisio - 10 sesiones.pdf",
+      "level": 1,
+      "size": 396506,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/dPLF.pdf",
+      "level": 1,
+      "size": 641733,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/order101219401.pdf",
+      "level": 1,
+      "size": 100960,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/order101219757.pdf",
+      "level": 1,
+      "size": 118728,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/plan_pensiones_REE.pdf",
+      "level": 1,
+      "size": 315241,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/sfr-facture-0 (1).pdf",
+      "level": 1,
+      "size": 80268,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/sfr-facture-0.pdf",
+      "level": 1,
+      "size": 81383,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/sfr-facture-1 (1).pdf",
+      "level": 1,
+      "size": 80159,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/sfr-facture-1-10TCODACT-0.pdf",
+      "level": 1,
+      "size": 80159,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/sfr-facture-1.pdf",
+      "level": 1,
+      "size": 81288,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/sfr-facture-2.pdf",
+      "level": 1,
+      "size": 81383,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/unnamed.jpg",
+      "level": 1,
+      "size": 86047,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/volante - Adeslas - clemenfisio firmado.pdf",
+      "level": 1,
+      "size": 309404,
+      "isDirectory": false,
+      "children": []
+    },
+    {
+      "path": "/Users/Adri/Downloads/volante Adeslas - clemenfisio.pdf",
+      "level": 1,
+      "size": 273282,
+      "isDirectory": false,
+      "children": []
+    }
+  ]
+}
