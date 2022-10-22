@@ -1,14 +1,20 @@
 class TreeNode {
   path;
+  level;
+  size;
+  isDirectory;
   children;
 
-  constructor(path) {
+  constructor(path, level) {
     this.path = path;
+    this.size = 0;
+    this.isDirectory = false;
+    this.level = level ? level : 0;
     this.children = [];
   }
 }
 
-function buildTree(rootPath) {
+function buildTree(rootPath, { verbose = true, depth = undefined }) {
   const root = new TreeNode(rootPath);
 
   const stack = [root];
@@ -16,33 +22,53 @@ function buildTree(rootPath) {
   while (stack.length) {
     const currentNode = stack.pop();
 
-    if (currentNode) {
-      try {
-        const children = fs.readdirSync(currentNode.path);
+    if (depth === undefined || currentNode.level < depth) {
+      if (currentNode) {
+        try {
 
-        for (let child of children) {
-          const childPath = path.join(currentNode.path, child);
-          const childNode = new TreeNode(childPath);
-          console.log('a childPath...', childPath);
+          // get file stats
+          try {
+            const stats = fs.statSync(currentNode.path);
 
-          fs.lstat(childPath, (err, stats) => {
-            if (err)
-              console.log(err);
-            else {
-              console.log("Stat of symlinkToFile")
-              console.log(stats);
+            // whether current node is file or folder
+            if (stats.isDirectory()) {
+              currentNode.isDirectory = true;
+              if (verbose) {
+                console.log("isDirectory: true");
+                console.log("=======");
+              }
             }
-          })
 
-          currentNode.children.push(childNode);
-
-          if (fs.statSync(childNode.path).isDirectory()) {
-            stack.push(childNode);
+          } catch (e) {
+            console.log(err);
           }
+
+          // get all children (if any)
+          const children = fs.readdirSync(currentNode.path);
+
+          for (let child of children) {
+            const childPath = path.join(currentNode.path, child);
+            const childNode = new TreeNode(childPath, currentNode.level + 1);
+            if (verbose) console.log("childPath: ", childPath);
+
+            // if the child is a directory, update it and add it to the stack
+            const childStats = fs.statSync(childNode.path);
+            if (childStats.isDirectory()) {
+              childNode.isDirectory = true;
+              stack.push(childNode);
+            } else {
+              // the child is a file. Get its size
+              childNode.size = fs.statSync(childNode.path).size;
+              if (verbose) console.log("stats: ", stats);
+            }
+
+            // add the child to children of the current node
+            currentNode.children.push(childNode);
+          }
+        } catch (e) {
+          console.error(`Something went wrong with ${currentNode.path}`);
+          console.error(e);
         }
-      } catch (e) {
-        console.error(`Something went wrong with ${currentNode.path}`);
-        console.error(`{e}`);
       }
     }
   }
@@ -52,14 +78,25 @@ function buildTree(rootPath) {
 
 // ============
 
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 // get path from console
 const file = process.argv[2];
 
-console.log('requested folder:', file);
+console.log("requested folder:", file);
 
-const tree = buildTree(file);
+// optional parameters:
+// depth: specifies how far we parse the folder
+// verbose: to display console.logs
+const tree = buildTree(file, { depth: 3, verbose: false });
 
-// console.log('the tree:', JSON.stringify(tree, null, 2));
+// write the result as JSON
+fs.writeFile(
+  `node-js/node-intro/tree_.json`,
+  JSON.stringify(tree, null, 2),
+  (err) => {
+    if (err) throw err;
+    console.log("Data written to file");
+  }
+);
