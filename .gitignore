@@ -1,5 +1,6 @@
 js-snippets/append-comments/index.html
 
 node_modules
+.DS_Store
 # ignore landing-pages folder for the moment
 landing-pages
